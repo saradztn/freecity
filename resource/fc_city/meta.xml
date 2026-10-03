@@ -1,6 +1,6 @@
 <meta>
     <info author="Freecity Procedural Pipeline" name="Northpoint Harbor" version="0.1.0" type="script" />
-    <min_mta_version server="1.6.0-9.22676.0" client="1.6.0-9.22676.0" />
+    <min_mta_version server="1.6.0-9.22678.0" client="1.6.0-9.22678.0" />
     <script src="client/main.lua" type="client" cache="false" />
     <script src="client/streaming.lua" type="client" cache="false" />
     <script src="client/environment.lua" type="client" cache="false" />

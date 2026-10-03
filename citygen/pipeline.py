@@ -299,7 +299,7 @@ def _write_meta(resource_dir:Path,file_paths:list[str],config:CityConfig)->None:
     ]
     lines=["<meta>",
            f'    <info author="Freecity Procedural Pipeline" name="{config.name}" version="0.1.0" type="script" />',
-           '    <min_mta_version server="1.6.0-9.22676.0" client="1.6.0-9.22676.0" />']
+           '    <min_mta_version server="1.6.0-9.22678.0" client="1.6.0-9.22678.0" />']
     for script,kind in fixed_scripts:
         lines.append(f'    <script src="{script}" type="{kind}" cache="false" />')
     for src in sorted(set(file_paths)):

@@ -93,6 +93,14 @@ class GeneratedResourceTests(unittest.TestCase):
         self.assertGreater(result["details"]["renderware"]["highLowTriangles"],0)
         self.assertEqual(result["details"]["runtime"]["tiles"],16)
 
+    def test_streaming_retains_engine_resources_until_unload(self):
+        lua=(ROOT/"resource"/"fc_city"/"client"/"streaming.lua").read_text()
+        self.assertIn("FC.loadedModels[#FC.loadedModels + 1] = dff",lua)
+        self.assertIn("FC.loadedCOLs[#FC.loadedCOLs + 1] = col",lua)
+        self.assertIn("if isElement(dff) then destroyElement(dff) end",lua)
+        self.assertIn("if isElement(col) then destroyElement(col) end",lua)
+        self.assertLess(lua.index("engineReplaceCOL(col, highID)"),lua.index("engineLoadTXD("))
+
 
 if __name__=="__main__":
     unittest.main()
