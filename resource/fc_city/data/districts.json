@@ -1,0 +1,155 @@
+{
+  "zones": [
+    {
+      "name": "downtown",
+      "bounds": [
+        -108,
+        -65,
+        128,
+        148
+      ],
+      "use": "mixed"
+    },
+    {
+      "name": "residential",
+      "bounds": [
+        -218,
+        43,
+        -116,
+        145
+      ],
+      "use": "residential"
+    },
+    {
+      "name": "commercial",
+      "bounds": [
+        -108,
+        -175,
+        128,
+        -75
+      ],
+      "use": "commercial"
+    },
+    {
+      "name": "industrial",
+      "bounds": [
+        133,
+        151,
+        225,
+        201
+      ],
+      "use": "industrial"
+    },
+    {
+      "name": "park",
+      "bounds": [
+        140,
+        -18,
+        222,
+        30
+      ],
+      "use": "park"
+    },
+    {
+      "name": "parking",
+      "bounds": [
+        77,
+        -104,
+        121,
+        -54
+      ],
+      "use": "parking"
+    },
+    {
+      "name": "ridge_residential",
+      "bounds": [
+        -210,
+        -54,
+        -170,
+        43
+      ],
+      "use": "residential"
+    },
+    {
+      "name": "west_commercial",
+      "bounds": [
+        -166,
+        -35,
+        -116,
+        16
+      ],
+      "use": "commercial"
+    },
+    {
+      "name": "industrial_west",
+      "bounds": [
+        -205,
+        153,
+        -130,
+        201
+      ],
+      "use": "industrial"
+    }
+  ],
+  "features": [
+    {
+      "id": "park_bay",
+      "kind": "urban_park",
+      "bounds": [
+        140,
+        -18,
+        222,
+        30
+      ],
+      "district": "park"
+    },
+    {
+      "id": "parking_lot_01",
+      "kind": "surface_parking",
+      "bounds": [
+        77,
+        -104,
+        121,
+        -54
+      ],
+      "district": "parking",
+      "spaces": 20,
+      "entrance": "east_bridge_approach"
+    }
+  ],
+  "records": [
+    {
+      "id": "park_bay",
+      "kind": "urban_park",
+      "path_widths": [
+        3.0,
+        2.25
+      ],
+      "fountain": [
+        186.74,
+        6.48
+      ],
+      "bounds": [
+        140,
+        -18,
+        222,
+        30
+      ]
+    },
+    {
+      "id": "parking_lot_01",
+      "kind": "surface_parking",
+      "spaces": 20,
+      "bounds": [
+        77,
+        -104,
+        121,
+        -54
+      ],
+      "row_centers": [
+        -81.0,
+        -68.0
+      ]
+    }
+  ]
+}

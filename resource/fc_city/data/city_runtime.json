@@ -1,0 +1,1733 @@
+{
+  "schema": 1,
+  "name": "Northpoint Harbor",
+  "seed": 20261003,
+  "originX": 2600.0,
+  "originY": 0.0,
+  "originZ": 0.0,
+  "worldMin": -384.0,
+  "worldMax": 384.0,
+  "tileSize": 192.0,
+  "tilesPerAxis": 4,
+  "lodHighDistance": 165,
+  "lodFarDistance": 500,
+  "spawn": {
+    "x": 2600.0,
+    "y": -150.0,
+    "z": 4.436,
+    "rotation": 90.0
+  },
+  "tiles": [
+    {
+      "id": "tile_m2_m2",
+      "tileX": -2,
+      "tileY": -2,
+      "localX": -288.0,
+      "localY": -288.0,
+      "worldX": 2312.0,
+      "worldY": -288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m2_m2_hi.dff",
+      "lowDff": "models/fc_tile_m2_m2_lo.dff",
+      "col": "models/fc_tile_m2_m2.col",
+      "highTriangles": 84,
+      "lowTriangles": 44,
+      "collisionTriangles": 52
+    },
+    {
+      "id": "tile_m1_m2",
+      "tileX": -1,
+      "tileY": -2,
+      "localX": -96.0,
+      "localY": -288.0,
+      "worldX": 2504.0,
+      "worldY": -288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m1_m2_hi.dff",
+      "lowDff": "models/fc_tile_m1_m2_lo.dff",
+      "col": "models/fc_tile_m1_m2.col",
+      "highTriangles": 332,
+      "lowTriangles": 86,
+      "collisionTriangles": 308
+    },
+    {
+      "id": "tile_p0_m2",
+      "tileX": 0,
+      "tileY": -2,
+      "localX": 96.0,
+      "localY": -288.0,
+      "worldX": 2696.0,
+      "worldY": -288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p0_m2_hi.dff",
+      "lowDff": "models/fc_tile_p0_m2_lo.dff",
+      "col": "models/fc_tile_p0_m2.col",
+      "highTriangles": 332,
+      "lowTriangles": 79,
+      "collisionTriangles": 308
+    },
+    {
+      "id": "tile_p1_m2",
+      "tileX": 1,
+      "tileY": -2,
+      "localX": 288.0,
+      "localY": -288.0,
+      "worldX": 2888.0,
+      "worldY": -288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p1_m2_hi.dff",
+      "lowDff": "models/fc_tile_p1_m2_lo.dff",
+      "col": "models/fc_tile_p1_m2.col",
+      "highTriangles": 80,
+      "lowTriangles": 41,
+      "collisionTriangles": 48
+    },
+    {
+      "id": "tile_m2_m1",
+      "tileX": -2,
+      "tileY": -1,
+      "localX": -288.0,
+      "localY": -96.0,
+      "worldX": 2312.0,
+      "worldY": -96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m2_m1_hi.dff",
+      "lowDff": "models/fc_tile_m2_m1_lo.dff",
+      "col": "models/fc_tile_m2_m1.col",
+      "highTriangles": 3836,
+      "lowTriangles": 624,
+      "collisionTriangles": 1481
+    },
+    {
+      "id": "tile_m1_m1",
+      "tileX": -1,
+      "tileY": -1,
+      "localX": -96.0,
+      "localY": -96.0,
+      "worldX": 2504.0,
+      "worldY": -96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m1_m1_hi.dff",
+      "lowDff": "models/fc_tile_m1_m1_lo.dff",
+      "col": "models/fc_tile_m1_m1.col",
+      "highTriangles": 9880,
+      "lowTriangles": 1758,
+      "collisionTriangles": 2559
+    },
+    {
+      "id": "tile_p0_m1",
+      "tileX": 0,
+      "tileY": -1,
+      "localX": 96.0,
+      "localY": -96.0,
+      "worldX": 2696.0,
+      "worldY": -96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p0_m1_hi.dff",
+      "lowDff": "models/fc_tile_p0_m1_lo.dff",
+      "col": "models/fc_tile_p0_m1.col",
+      "highTriangles": 10868,
+      "lowTriangles": 1743,
+      "collisionTriangles": 2565
+    },
+    {
+      "id": "tile_p1_m1",
+      "tileX": 1,
+      "tileY": -1,
+      "localX": 288.0,
+      "localY": -96.0,
+      "worldX": 2888.0,
+      "worldY": -96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p1_m1_hi.dff",
+      "lowDff": "models/fc_tile_p1_m1_lo.dff",
+      "col": "models/fc_tile_p1_m1.col",
+      "highTriangles": 2200,
+      "lowTriangles": 371,
+      "collisionTriangles": 996
+    },
+    {
+      "id": "tile_m2_p0",
+      "tileX": -2,
+      "tileY": 0,
+      "localX": -288.0,
+      "localY": 96.0,
+      "worldX": 2312.0,
+      "worldY": 96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m2_p0_hi.dff",
+      "lowDff": "models/fc_tile_m2_p0_lo.dff",
+      "col": "models/fc_tile_m2_p0.col",
+      "highTriangles": 3742,
+      "lowTriangles": 528,
+      "collisionTriangles": 1378
+    },
+    {
+      "id": "tile_m1_p0",
+      "tileX": -1,
+      "tileY": 0,
+      "localX": -96.0,
+      "localY": 96.0,
+      "worldX": 2504.0,
+      "worldY": 96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m1_p0_hi.dff",
+      "lowDff": "models/fc_tile_m1_p0_lo.dff",
+      "col": "models/fc_tile_m1_p0.col",
+      "highTriangles": 14533,
+      "lowTriangles": 2364,
+      "collisionTriangles": 2360
+    },
+    {
+      "id": "tile_p0_p0",
+      "tileX": 0,
+      "tileY": 0,
+      "localX": 96.0,
+      "localY": 96.0,
+      "worldX": 2696.0,
+      "worldY": 96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p0_p0_hi.dff",
+      "lowDff": "models/fc_tile_p0_p0_lo.dff",
+      "col": "models/fc_tile_p0_p0.col",
+      "highTriangles": 13715,
+      "lowTriangles": 1961,
+      "collisionTriangles": 2834
+    },
+    {
+      "id": "tile_p1_p0",
+      "tileX": 1,
+      "tileY": 0,
+      "localX": 288.0,
+      "localY": 96.0,
+      "worldX": 2888.0,
+      "worldY": 96.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p1_p0_hi.dff",
+      "lowDff": "models/fc_tile_p1_p0_lo.dff",
+      "col": "models/fc_tile_p1_p0.col",
+      "highTriangles": 3516,
+      "lowTriangles": 631,
+      "collisionTriangles": 1149
+    },
+    {
+      "id": "tile_m2_p1",
+      "tileX": -2,
+      "tileY": 1,
+      "localX": -288.0,
+      "localY": 288.0,
+      "worldX": 2312.0,
+      "worldY": 288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m2_p1_hi.dff",
+      "lowDff": "models/fc_tile_m2_p1_lo.dff",
+      "col": "models/fc_tile_m2_p1.col",
+      "highTriangles": 176,
+      "lowTriangles": 122,
+      "collisionTriangles": 144
+    },
+    {
+      "id": "tile_m1_p1",
+      "tileX": -1,
+      "tileY": 1,
+      "localX": -96.0,
+      "localY": 288.0,
+      "worldX": 2504.0,
+      "worldY": 288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_m1_p1_hi.dff",
+      "lowDff": "models/fc_tile_m1_p1_lo.dff",
+      "col": "models/fc_tile_m1_p1.col",
+      "highTriangles": 668,
+      "lowTriangles": 376,
+      "collisionTriangles": 644
+    },
+    {
+      "id": "tile_p0_p1",
+      "tileX": 0,
+      "tileY": 1,
+      "localX": 96.0,
+      "localY": 288.0,
+      "worldX": 2696.0,
+      "worldY": 288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p0_p1_hi.dff",
+      "lowDff": "models/fc_tile_p0_p1_lo.dff",
+      "col": "models/fc_tile_p0_p1.col",
+      "highTriangles": 748,
+      "lowTriangles": 397,
+      "collisionTriangles": 639
+    },
+    {
+      "id": "tile_p1_p1",
+      "tileX": 1,
+      "tileY": 1,
+      "localX": 288.0,
+      "localY": 288.0,
+      "worldX": 2888.0,
+      "worldY": 288.0,
+      "worldZ": 0.0,
+      "highDff": "models/fc_tile_p1_p1_hi.dff",
+      "lowDff": "models/fc_tile_p1_p1_lo.dff",
+      "col": "models/fc_tile_p1_p1.col",
+      "highTriangles": 160,
+      "lowTriangles": 105,
+      "collisionTriangles": 111
+    }
+  ],
+  "lights": [
+    {
+      "id": "street_000",
+      "worldX": 2391.125,
+      "worldY": -186.875,
+      "worldZ": 9.376,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_001",
+      "worldX": 2416.162,
+      "worldY": -186.875,
+      "worldZ": 9.088,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_002",
+      "worldX": 2461.275,
+      "worldY": -186.875,
+      "worldZ": 8.751,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_003",
+      "worldX": 2521.133,
+      "worldY": -186.618,
+      "worldZ": 8.942,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_004",
+      "worldX": 2551.572,
+      "worldY": -172.686,
+      "worldZ": 9.223,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_005",
+      "worldX": 2581.642,
+      "worldY": -187.245,
+      "worldZ": 9.625,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_006",
+      "worldX": 2641.133,
+      "worldY": -186.618,
+      "worldZ": 10.014,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_007",
+      "worldX": 2671.572,
+      "worldY": -172.686,
+      "worldZ": 10.038,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_008",
+      "worldX": 2701.642,
+      "worldY": -187.245,
+      "worldZ": 9.69,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_009",
+      "worldX": 2764.527,
+      "worldY": -186.656,
+      "worldZ": 9.025,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_010",
+      "worldX": 2798.283,
+      "worldY": -172.952,
+      "worldZ": 8.611,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_011",
+      "worldX": 2393.921,
+      "worldY": -83.444,
+      "worldZ": 19.959,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_012",
+      "worldX": 2462.808,
+      "worldY": -69.839,
+      "worldZ": 21.167,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_013",
+      "worldX": 2522.503,
+      "worldY": -63.784,
+      "worldZ": 9.435,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_014",
+      "worldX": 2551.041,
+      "worldY": -38.79,
+      "worldZ": 7.964,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_015",
+      "worldX": 2582.826,
+      "worldY": -58.944,
+      "worldZ": 7.524,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_016",
+      "worldX": 2642.227,
+      "worldY": -54.718,
+      "worldZ": 7.294,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_017",
+      "worldX": 2671.27,
+      "worldY": -30.295,
+      "worldZ": 7.077,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_018",
+      "worldX": 2702.542,
+      "worldY": -51.102,
+      "worldZ": 8.329,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_019",
+      "worldX": 2766.049,
+      "worldY": -45.962,
+      "worldZ": 9.554,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_020",
+      "worldX": 2797.296,
+      "worldY": -20.172,
+      "worldZ": 10.294,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_021",
+      "worldX": 2392.621,
+      "worldY": 35.224,
+      "worldZ": 11.438,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_022",
+      "worldX": 2417.237,
+      "worldY": 39.078,
+      "worldZ": 11.734,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_023",
+      "worldX": 2462.226,
+      "worldY": 44.016,
+      "worldZ": 10.539,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_024",
+      "worldX": 2521.205,
+      "worldY": 48.443,
+      "worldZ": 8.584,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_025",
+      "worldX": 2551.85,
+      "worldY": 63.589,
+      "worldZ": 8.068,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_026",
+      "worldX": 2582.733,
+      "worldY": 49.272,
+      "worldZ": 7.514,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_027",
+      "worldX": 2640.481,
+      "worldY": 48.787,
+      "worldZ": 7.498,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_028",
+      "worldX": 2672.429,
+      "worldY": 61.491,
+      "worldZ": 8.271,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_029",
+      "worldX": 2701.986,
+      "worldY": 44.744,
+      "worldZ": 8.356,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_030",
+      "worldX": 2763.7,
+      "worldY": 38.645,
+      "worldZ": 9.591,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_031",
+      "worldX": 2799.779,
+      "worldY": 49.503,
+      "worldZ": 9.936,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_032",
+      "worldX": 2390.313,
+      "worldY": 141.732,
+      "worldZ": 9.197,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_033",
+      "worldX": 2415.313,
+      "worldY": 139.232,
+      "worldZ": 8.682,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_034",
+      "worldX": 2460.682,
+      "worldY": 136.257,
+      "worldZ": 8.142,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_035",
+      "worldX": 2520.767,
+      "worldY": 137.565,
+      "worldZ": 8.815,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_036",
+      "worldX": 2550.742,
+      "worldY": 153.537,
+      "worldZ": 10.351,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_037",
+      "worldX": 2582.306,
+      "worldY": 140.132,
+      "worldZ": 12.322,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_038",
+      "worldX": 2641.184,
+      "worldY": 147.745,
+      "worldZ": 18.126,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_039",
+      "worldX": 2670.402,
+      "worldY": 165.064,
+      "worldZ": 20.221,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_040",
+      "worldX": 2702.723,
+      "worldY": 153.154,
+      "worldZ": 18.332,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_041",
+      "worldX": 2764.864,
+      "worldY": 163.819,
+      "worldZ": 12.331,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_042",
+      "worldX": 2797.245,
+      "worldY": 181.735,
+      "worldZ": 11.041,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_043",
+      "worldX": 2387.069,
+      "worldY": -152.208,
+      "worldZ": 9.791,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_044",
+      "worldX": 2372.662,
+      "worldY": -125.584,
+      "worldZ": 10.999,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_045",
+      "worldX": 2387.631,
+      "worldY": -99.511,
+      "worldZ": 15.125,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_046",
+      "worldX": 2387.216,
+      "worldY": -44.708,
+      "worldZ": 22.375,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_047",
+      "worldX": 2373.041,
+      "worldY": -15.48,
+      "worldZ": 16.725,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_048",
+      "worldX": 2388.046,
+      "worldY": 13.103,
+      "worldZ": 14.312,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_049",
+      "worldX": 2407.069,
+      "worldY": -150.934,
+      "worldZ": 9.634,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_050",
+      "worldX": 2392.661,
+      "worldY": -123.05,
+      "worldZ": 11.833,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_051",
+      "worldX": 2407.631,
+      "worldY": -95.728,
+      "worldZ": 18.339,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_052",
+      "worldX": 2408.06,
+      "worldY": -39.963,
+      "worldZ": 29.87,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_053",
+      "worldX": 2393.01,
+      "worldY": -11.203,
+      "worldZ": 20.587,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_054",
+      "worldX": 2407.202,
+      "worldY": 17.347,
+      "worldZ": 15.425,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_055",
+      "worldX": 2437.069,
+      "worldY": -148.897,
+      "worldZ": 9.285,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_056",
+      "worldX": 2422.66,
+      "worldY": -118.995,
+      "worldZ": 12.777,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_057",
+      "worldX": 2437.631,
+      "worldY": -89.676,
+      "worldZ": 20.007,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_058",
+      "worldX": 2437.216,
+      "worldY": -32.984,
+      "worldZ": 28.81,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_059",
+      "worldX": 2423.042,
+      "worldY": -5.013,
+      "worldZ": 23.923,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_060",
+      "worldX": 2438.046,
+      "worldY": 22.323,
+      "worldZ": 14.868,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_061",
+      "worldX": 2497.069,
+      "worldY": -147.114,
+      "worldZ": 8.417,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_062",
+      "worldX": 2482.66,
+      "worldY": -115.447,
+      "worldZ": 9.664,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_063",
+      "worldX": 2497.631,
+      "worldY": -84.38,
+      "worldZ": 11.22,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_064",
+      "worldX": 2498.06,
+      "worldY": -26.239,
+      "worldZ": 12.724,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_065",
+      "worldX": 2483.01,
+      "worldY": 1.254,
+      "worldZ": 12.833,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_066",
+      "worldX": 2497.202,
+      "worldY": 28.567,
+      "worldZ": 10.072,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_067",
+      "worldX": 2617.069,
+      "worldY": -144.567,
+      "worldZ": 10.046,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_068",
+      "worldX": 2602.659,
+      "worldY": -110.377,
+      "worldZ": 9.303,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_069",
+      "worldX": 2617.631,
+      "worldY": -76.814,
+      "worldZ": 8.175,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_070",
+      "worldX": 2617.217,
+      "worldY": -17.77,
+      "worldZ": 6.405,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_071",
+      "worldX": 2603.043,
+      "worldY": 8.442,
+      "worldZ": 6.383,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_072",
+      "worldX": 2618.045,
+      "worldY": 34.03,
+      "worldZ": 6.728,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_073",
+      "worldX": 2737.35,
+      "worldY": -161.45,
+      "worldZ": 9.193,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_074",
+      "worldX": 2737.35,
+      "worldY": -70.45,
+      "worldZ": 8.999,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_075",
+      "worldX": 2738.017,
+      "worldY": -7.095,
+      "worldZ": 8.961,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_076",
+      "worldX": 2722.638,
+      "worldY": 22.284,
+      "worldZ": 8.664,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_077",
+      "worldX": 2837.06,
+      "worldY": -147.949,
+      "worldZ": 8.286,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_078",
+      "worldX": 2822.514,
+      "worldY": -117.077,
+      "worldZ": 0.018,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_079",
+      "worldX": 2837.501,
+      "worldY": -86.635,
+      "worldZ": 8.896,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_080",
+      "worldX": 2822.935,
+      "worldY": -56.492,
+      "worldZ": 9.769,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_081",
+      "worldX": 2837.725,
+      "worldY": 6.545,
+      "worldZ": 10.532,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_082",
+      "worldX": 2387.069,
+      "worldY": 69.066,
+      "worldZ": 9.686,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_083",
+      "worldX": 2372.661,
+      "worldY": 96.95,
+      "worldZ": 9.486,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_084",
+      "worldX": 2387.631,
+      "worldY": 124.272,
+      "worldZ": 9.293,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_085",
+      "worldX": 2407.069,
+      "worldY": 71.537,
+      "worldZ": 9.662,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_086",
+      "worldX": 2392.662,
+      "worldY": 97.909,
+      "worldZ": 9.234,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_087",
+      "worldX": 2407.631,
+      "worldY": 123.733,
+      "worldZ": 8.894,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_088",
+      "worldX": 2437.131,
+      "worldY": 81.933,
+      "worldZ": 8.926,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_089",
+      "worldX": 2422.876,
+      "worldY": 114.461,
+      "worldZ": 8.638,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_090",
+      "worldX": 2497.132,
+      "worldY": 84.877,
+      "worldZ": 8.552,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_091",
+      "worldX": 2482.876,
+      "worldY": 114.397,
+      "worldZ": 8.362,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_092",
+      "worldX": 2617.131,
+      "worldY": 90.236,
+      "worldZ": 9.669,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_093",
+      "worldX": 2602.876,
+      "worldY": 121.092,
+      "worldZ": 12.284,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_094",
+      "worldX": 2752.342,
+      "worldY": 52.682,
+      "worldZ": 9.315,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_095",
+      "worldX": 2755.228,
+      "worldY": 81.577,
+      "worldZ": 9.48,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_096",
+      "worldX": 2744.454,
+      "worldY": 145.492,
+      "worldZ": 13.401,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_097",
+      "worldX": 2774.845,
+      "worldY": 128.499,
+      "worldZ": 10.141,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_098",
+      "worldX": 2815.648,
+      "worldY": 159.058,
+      "worldZ": 9.029,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_099",
+      "worldX": 2819.298,
+      "worldY": 130.226,
+      "worldZ": 8.742,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    },
+    {
+      "id": "street_100",
+      "worldX": 2794.38,
+      "worldY": 110.668,
+      "worldZ": 9.084,
+      "color": [
+        216,
+        226,
+        228
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "neutral_led"
+    },
+    {
+      "id": "street_101",
+      "worldX": 2826.342,
+      "worldY": 52.446,
+      "worldZ": 9.949,
+      "color": [
+        182,
+        207,
+        233
+      ],
+      "intensity": 0.38,
+      "range": 26.0,
+      "type": "cool_led"
+    },
+    {
+      "id": "street_102",
+      "worldX": 2795.25,
+      "worldY": 60.474,
+      "worldZ": 9.665,
+      "color": [
+        255,
+        190,
+        119
+      ],
+      "intensity": 0.52,
+      "range": 26.0,
+      "type": "sodium"
+    }
+  ],
+  "thunderFiles": [
+    "audio/thunder_01.wav",
+    "audio/thunder_02.wav"
+  ],
+  "capabilities": {
+    "nativeWeather": true,
+    "screenSpaceReflections": false,
+    "depthAwareShadows": false,
+    "rainPuddles": "material mask + gradual wetness shader",
+    "water": "animated local normals/specular; no screen-space reflection"
+  }
+}

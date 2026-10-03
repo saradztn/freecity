@@ -1,0 +1,1887 @@
+{
+  "schema": 1,
+  "city": "Northpoint Harbor",
+  "seed": 20261003,
+  "generatedFiles": [
+    "audio/thunder_01.wav",
+    "audio/thunder_02.wav",
+    "data/asset_registry.json",
+    "data/assets.json",
+    "data/build_report.json",
+    "data/buildings.json",
+    "data/city_runtime.json",
+    "data/districts.json",
+    "data/roads.json",
+    "meta.xml",
+    "models/fc_tile_m1_m1.col",
+    "models/fc_tile_m1_m1_hi.dff",
+    "models/fc_tile_m1_m1_lo.dff",
+    "models/fc_tile_m1_m2.col",
+    "models/fc_tile_m1_m2_hi.dff",
+    "models/fc_tile_m1_m2_lo.dff",
+    "models/fc_tile_m1_p0.col",
+    "models/fc_tile_m1_p0_hi.dff",
+    "models/fc_tile_m1_p0_lo.dff",
+    "models/fc_tile_m1_p1.col",
+    "models/fc_tile_m1_p1_hi.dff",
+    "models/fc_tile_m1_p1_lo.dff",
+    "models/fc_tile_m2_m1.col",
+    "models/fc_tile_m2_m1_hi.dff",
+    "models/fc_tile_m2_m1_lo.dff",
+    "models/fc_tile_m2_m2.col",
+    "models/fc_tile_m2_m2_hi.dff",
+    "models/fc_tile_m2_m2_lo.dff",
+    "models/fc_tile_m2_p0.col",
+    "models/fc_tile_m2_p0_hi.dff",
+    "models/fc_tile_m2_p0_lo.dff",
+    "models/fc_tile_m2_p1.col",
+    "models/fc_tile_m2_p1_hi.dff",
+    "models/fc_tile_m2_p1_lo.dff",
+    "models/fc_tile_p0_m1.col",
+    "models/fc_tile_p0_m1_hi.dff",
+    "models/fc_tile_p0_m1_lo.dff",
+    "models/fc_tile_p0_m2.col",
+    "models/fc_tile_p0_m2_hi.dff",
+    "models/fc_tile_p0_m2_lo.dff",
+    "models/fc_tile_p0_p0.col",
+    "models/fc_tile_p0_p0_hi.dff",
+    "models/fc_tile_p0_p0_lo.dff",
+    "models/fc_tile_p0_p1.col",
+    "models/fc_tile_p0_p1_hi.dff",
+    "models/fc_tile_p0_p1_lo.dff",
+    "models/fc_tile_p1_m1.col",
+    "models/fc_tile_p1_m1_hi.dff",
+    "models/fc_tile_p1_m1_lo.dff",
+    "models/fc_tile_p1_m2.col",
+    "models/fc_tile_p1_m2_hi.dff",
+    "models/fc_tile_p1_m2_lo.dff",
+    "models/fc_tile_p1_p0.col",
+    "models/fc_tile_p1_p0_hi.dff",
+    "models/fc_tile_p1_p0_lo.dff",
+    "models/fc_tile_p1_p1.col",
+    "models/fc_tile_p1_p1_hi.dff",
+    "models/fc_tile_p1_p1_lo.dff",
+    "textures/cloud_noise.dds",
+    "textures/cloud_noise.png",
+    "textures/fc_asphalt.dds",
+    "textures/fc_asphalt.png",
+    "textures/fc_asphalt_h.dds",
+    "textures/fc_asphalt_m.dds",
+    "textures/fc_asphalt_n.dds",
+    "textures/fc_asphalt_r.dds",
+    "textures/fc_asphalt_s.dds",
+    "textures/fc_brick.dds",
+    "textures/fc_brick.png",
+    "textures/fc_brick_h.dds",
+    "textures/fc_brick_m.dds",
+    "textures/fc_brick_n.dds",
+    "textures/fc_brick_r.dds",
+    "textures/fc_brick_s.dds",
+    "textures/fc_concrete.dds",
+    "textures/fc_concrete.png",
+    "textures/fc_concrete_h.dds",
+    "textures/fc_concrete_m.dds",
+    "textures/fc_concrete_n.dds",
+    "textures/fc_concrete_r.dds",
+    "textures/fc_concrete_s.dds",
+    "textures/fc_emissive.dds",
+    "textures/fc_emissive.png",
+    "textures/fc_emissive_h.dds",
+    "textures/fc_emissive_m.dds",
+    "textures/fc_emissive_n.dds",
+    "textures/fc_emissive_r.dds",
+    "textures/fc_emissive_s.dds",
+    "textures/fc_glass.dds",
+    "textures/fc_glass.png",
+    "textures/fc_glass_h.dds",
+    "textures/fc_glass_m.dds",
+    "textures/fc_glass_n.dds",
+    "textures/fc_glass_r.dds",
+    "textures/fc_glass_s.dds",
+    "textures/fc_grass.dds",
+    "textures/fc_grass.png",
+    "textures/fc_grass_h.dds",
+    "textures/fc_grass_m.dds",
+    "textures/fc_grass_n.dds",
+    "textures/fc_grass_r.dds",
+    "textures/fc_grass_s.dds",
+    "textures/fc_leaves.dds",
+    "textures/fc_leaves.png",
+    "textures/fc_leaves_h.dds",
+    "textures/fc_leaves_m.dds",
+    "textures/fc_leaves_n.dds",
+    "textures/fc_leaves_r.dds",
+    "textures/fc_leaves_s.dds",
+    "textures/fc_materials.txd",
+    "textures/fc_metal.dds",
+    "textures/fc_metal.png",
+    "textures/fc_metal_h.dds",
+    "textures/fc_metal_m.dds",
+    "textures/fc_metal_n.dds",
+    "textures/fc_metal_r.dds",
+    "textures/fc_metal_s.dds",
+    "textures/fc_paintcon.dds",
+    "textures/fc_paintcon.png",
+    "textures/fc_paintcon_h.dds",
+    "textures/fc_paintcon_m.dds",
+    "textures/fc_paintcon_n.dds",
+    "textures/fc_paintcon_r.dds",
+    "textures/fc_paintcon_s.dds",
+    "textures/fc_pmetal.dds",
+    "textures/fc_pmetal.png",
+    "textures/fc_pmetal_h.dds",
+    "textures/fc_pmetal_m.dds",
+    "textures/fc_pmetal_n.dds",
+    "textures/fc_pmetal_r.dds",
+    "textures/fc_pmetal_s.dds",
+    "textures/fc_roadmark.dds",
+    "textures/fc_roadmark.png",
+    "textures/fc_roadmark_h.dds",
+    "textures/fc_roadmark_m.dds",
+    "textures/fc_roadmark_n.dds",
+    "textures/fc_roadmark_r.dds",
+    "textures/fc_roadmark_s.dds",
+    "textures/fc_roof.dds",
+    "textures/fc_roof.png",
+    "textures/fc_roof_h.dds",
+    "textures/fc_roof_m.dds",
+    "textures/fc_roof_n.dds",
+    "textures/fc_roof_r.dds",
+    "textures/fc_roof_s.dds",
+    "textures/fc_sand.dds",
+    "textures/fc_sand.png",
+    "textures/fc_sand_h.dds",
+    "textures/fc_sand_m.dds",
+    "textures/fc_sand_n.dds",
+    "textures/fc_sand_r.dds",
+    "textures/fc_sand_s.dds",
+    "textures/fc_sidewalk.dds",
+    "textures/fc_sidewalk.png",
+    "textures/fc_sidewalk_h.dds",
+    "textures/fc_sidewalk_m.dds",
+    "textures/fc_sidewalk_n.dds",
+    "textures/fc_sidewalk_r.dds",
+    "textures/fc_sidewalk_s.dds",
+    "textures/fc_sign.dds",
+    "textures/fc_sign.png",
+    "textures/fc_sign_h.dds",
+    "textures/fc_sign_m.dds",
+    "textures/fc_sign_n.dds",
+    "textures/fc_sign_r.dds",
+    "textures/fc_sign_s.dds",
+    "textures/fc_soil.dds",
+    "textures/fc_soil.png",
+    "textures/fc_soil_h.dds",
+    "textures/fc_soil_m.dds",
+    "textures/fc_soil_n.dds",
+    "textures/fc_soil_r.dds",
+    "textures/fc_soil_s.dds",
+    "textures/fc_stone.dds",
+    "textures/fc_stone.png",
+    "textures/fc_stone_h.dds",
+    "textures/fc_stone_m.dds",
+    "textures/fc_stone_n.dds",
+    "textures/fc_stone_r.dds",
+    "textures/fc_stone_s.dds",
+    "textures/fc_water.dds",
+    "textures/fc_water.png",
+    "textures/fc_water_h.dds",
+    "textures/fc_water_m.dds",
+    "textures/fc_water_n.dds",
+    "textures/fc_water_r.dds",
+    "textures/fc_water_s.dds",
+    "textures/fc_wincool.dds",
+    "textures/fc_wincool.png",
+    "textures/fc_wincool_h.dds",
+    "textures/fc_wincool_m.dds",
+    "textures/fc_wincool_n.dds",
+    "textures/fc_wincool_r.dds",
+    "textures/fc_wincool_s.dds",
+    "textures/fc_windark.dds",
+    "textures/fc_windark.png",
+    "textures/fc_windark_h.dds",
+    "textures/fc_windark_m.dds",
+    "textures/fc_windark_n.dds",
+    "textures/fc_windark_r.dds",
+    "textures/fc_windark_s.dds",
+    "textures/fc_winwarm.dds",
+    "textures/fc_winwarm.png",
+    "textures/fc_winwarm_h.dds",
+    "textures/fc_winwarm_m.dds",
+    "textures/fc_winwarm_n.dds",
+    "textures/fc_winwarm_r.dds",
+    "textures/fc_winwarm_s.dds",
+    "textures/fc_wood.dds",
+    "textures/fc_wood.png",
+    "textures/fc_wood_h.dds",
+    "textures/fc_wood_m.dds",
+    "textures/fc_wood_n.dds",
+    "textures/fc_wood_r.dds",
+    "textures/fc_wood_s.dds",
+    "textures/light_halo.dds",
+    "textures/light_halo.png",
+    "textures/sun_disc.dds",
+    "textures/sun_disc.png",
+    "textures/weather_noise.dds",
+    "textures/weather_noise.png"
+  ],
+  "stats": {
+    "nodes": 44,
+    "roads": 64,
+    "buildings": 22,
+    "intersections": 34,
+    "trees": 26,
+    "streetLights": 103,
+    "tiles": 16,
+    "highTriangles": 64870,
+    "lowTriangles": 11230,
+    "combinedVisualTriangles": 76100,
+    "collisionTriangles": 17576,
+    "textureSourceDDSBytes": 11892160,
+    "runtimeTextureBytes": 14299032,
+    "textureDictionaryBytes": 2406872,
+    "layoutValidation": {
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "nodes": 44,
+      "roads": 64,
+      "connectedComponents": 1,
+      "buildings": 22
+    },
+    "budgets": {
+      "assets": 250,
+      "triangles": 120000,
+      "textures": 33554432
+    }
+  },
+  "models": [
+    {
+      "name": "tile_m2_m2",
+      "high": {
+        "path": "models/fc_tile_m2_m2_hi.dff",
+        "bytes": 8380,
+        "vertices": 168,
+        "triangles": 84,
+        "materials": [
+          "grass",
+          "water"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            3.0583711725955807
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m2_m2_lo.dff",
+        "bytes": 4700,
+        "vertices": 88,
+        "triangles": 44,
+        "materials": [
+          "grass",
+          "water"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            100.0,
+            100.0,
+            3.018381222299062
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m2_m2.col",
+        "bytes": 836,
+        "vertices": 40,
+        "triangles": 52,
+        "bounds": [
+          [
+            12.0,
+            24.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            3.0546875
+          ]
+        ]
+      },
+      "localCenter": [
+        -288.0,
+        -288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "water"
+      ]
+    },
+    {
+      "name": "tile_m1_m2",
+      "high": {
+        "path": "models/fc_tile_m1_m2_hi.dff",
+        "bytes": 31345,
+        "vertices": 664,
+        "triangles": 332,
+        "materials": [
+          "grass",
+          "soil",
+          "water"
+        ],
+        "bounds": [
+          [
+            -96.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            4.008790057185443
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m1_m2_lo.dff",
+        "bytes": 8713,
+        "vertices": 172,
+        "triangles": 86,
+        "materials": [
+          "grass",
+          "soil",
+          "water"
+        ],
+        "bounds": [
+          [
+            -96.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            104.0,
+            100.0,
+            3.885557970940606
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m1_m2.col",
+        "bytes": 3904,
+        "vertices": 182,
+        "triangles": 308,
+        "bounds": [
+          [
+            -96.0,
+            -36.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            4.0078125
+          ]
+        ]
+      },
+      "localCenter": [
+        -96.0,
+        -288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water"
+      ]
+    },
+    {
+      "name": "tile_p0_m2",
+      "high": {
+        "path": "models/fc_tile_p0_m2_hi.dff",
+        "bytes": 31345,
+        "vertices": 664,
+        "triangles": 332,
+        "materials": [
+          "soil",
+          "grass",
+          "water"
+        ],
+        "bounds": [
+          [
+            -96.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            3.3840557417861272
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p0_m2_lo.dff",
+        "bytes": 8177,
+        "vertices": 161,
+        "triangles": 79,
+        "materials": [
+          "grass",
+          "soil",
+          "water"
+        ],
+        "bounds": [
+          [
+            -96.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            108.0,
+            100.0,
+            3.4409548808286163
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p0_m2.col",
+        "bytes": 3940,
+        "vertices": 183,
+        "triangles": 308,
+        "bounds": [
+          [
+            -96.0,
+            -48.0,
+            -3.0
+          ],
+          [
+            96.0,
+            96.0,
+            3.3828125
+          ]
+        ]
+      },
+      "localCenter": [
+        96.0,
+        -288.0,
+        0.0
+      ],
+      "materials": [
+        "soil",
+        "grass",
+        "water"
+      ]
+    },
+    {
+      "name": "tile_p1_m2",
+      "high": {
+        "path": "models/fc_tile_p1_m2_hi.dff",
+        "bytes": 8012,
+        "vertices": 160,
+        "triangles": 80,
+        "materials": [
+          "grass",
+          "water"
+        ],
+        "bounds": [
+          [
+            -96.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            160.0,
+            96.0,
+            3.03151264262865
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p1_m2_lo.dff",
+        "bytes": 4532,
+        "vertices": 85,
+        "triangles": 41,
+        "materials": [
+          "grass",
+          "water"
+        ],
+        "bounds": [
+          [
+            -112.0,
+            -160.0,
+            -3.0
+          ],
+          [
+            160.0,
+            100.0,
+            3.019409784086614
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p1_m2.col",
+        "bytes": 760,
+        "vertices": 37,
+        "triangles": 48,
+        "bounds": [
+          [
+            -96.0,
+            24.0,
+            -3.0
+          ],
+          [
+            -24.0,
+            96.0,
+            3.03125
+          ]
+        ]
+      },
+      "localCenter": [
+        288.0,
+        -288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "water"
+      ]
+    },
+    {
+      "name": "tile_m2_m1",
+      "high": {
+        "path": "models/fc_tile_m2_m1_hi.dff",
+        "bytes": 405353,
+        "vertices": 9056,
+        "triangles": 3836,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "painted_metal",
+          "window_dark",
+          "metal",
+          "emissive",
+          "sign",
+          "wood",
+          "leaves",
+          "stone"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -96.0,
+            -3.0
+          ],
+          [
+            100.5,
+            130.04192869059966,
+            30.12040757514613
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m2_m1_lo.dff",
+        "bytes": 63461,
+        "vertices": 1356,
+        "triangles": 624,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "painted_metal",
+          "window_dark",
+          "wood",
+          "leaves",
+          "stone"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -96.0,
+            -3.0
+          ],
+          [
+            100.5,
+            104.0,
+            26.21306306750375
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m2_m1.col",
+        "bytes": 22864,
+        "vertices": 1638,
+        "triangles": 1481,
+        "bounds": [
+          [
+            -48.0,
+            -96.0,
+            -3.0
+          ],
+          [
+            100.5,
+            96.6953125,
+            29.8203125
+          ]
+        ]
+      },
+      "localCenter": [
+        -288.0,
+        -96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "painted_metal",
+        "window_dark",
+        "metal",
+        "emissive",
+        "sign",
+        "wood",
+        "leaves",
+        "stone"
+      ]
+    },
+    {
+      "name": "tile_m1_m1",
+      "high": {
+        "path": "models/fc_tile_m1_m1_hi.dff",
+        "bytes": 997587,
+        "vertices": 22124,
+        "triangles": 9880,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "stone",
+          "roof",
+          "window_cool",
+          "metal",
+          "window_dark",
+          "window_warm",
+          "painted_metal",
+          "painted_concrete",
+          "brick",
+          "wood",
+          "sign",
+          "emissive",
+          "glass",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -100.5,
+            -96.0,
+            -2.2
+          ],
+          [
+            99.51336310133384,
+            140.04145217745332,
+            67.7044035150644
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m1_m1_lo.dff",
+        "bytes": 170432,
+        "vertices": 3668,
+        "triangles": 1758,
+        "materials": [
+          "soil",
+          "grass",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "stone",
+          "roof",
+          "window_cool",
+          "window_dark",
+          "metal",
+          "window_warm",
+          "painted_concrete",
+          "brick",
+          "painted_metal",
+          "wood",
+          "leaves",
+          "emissive"
+        ],
+        "bounds": [
+          [
+            -100.5,
+            -96.0,
+            -2.2
+          ],
+          [
+            104.0,
+            107.92123939761025,
+            68.39686523127392
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m1_m1.col",
+        "bytes": 39368,
+        "vertices": 2825,
+        "triangles": 2559,
+        "bounds": [
+          [
+            -100.5,
+            -96.0,
+            -0.1171875
+          ],
+          [
+            99.515625,
+            107.46875,
+            65.296875
+          ]
+        ]
+      },
+      "localCenter": [
+        -96.0,
+        -96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "stone",
+        "roof",
+        "window_cool",
+        "metal",
+        "window_dark",
+        "window_warm",
+        "painted_metal",
+        "painted_concrete",
+        "brick",
+        "wood",
+        "sign",
+        "emissive",
+        "glass",
+        "leaves"
+      ]
+    },
+    {
+      "name": "tile_p0_m1",
+      "high": {
+        "path": "models/fc_tile_p0_m1_hi.dff",
+        "bytes": 1117202,
+        "vertices": 24902,
+        "triangles": 10868,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "leaves",
+          "painted_metal",
+          "emissive",
+          "glass",
+          "roof",
+          "window_dark",
+          "metal",
+          "window_warm",
+          "window_cool",
+          "sign",
+          "brick",
+          "wood",
+          "stone"
+        ],
+        "bounds": [
+          [
+            -98.01951671726026,
+            -96.0,
+            -6.319757491618079
+          ],
+          [
+            133.05754018926072,
+            144.12790291285822,
+            93.7463120516181
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p0_m1_lo.dff",
+        "bytes": 171740,
+        "vertices": 3717,
+        "triangles": 1743,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "glass",
+          "roof",
+          "window_dark",
+          "metal",
+          "window_warm",
+          "window_cool",
+          "painted_metal",
+          "brick",
+          "wood",
+          "leaves",
+          "stone"
+        ],
+        "bounds": [
+          [
+            -98.58941478096708,
+            -96.0,
+            -5.314211712463925
+          ],
+          [
+            108.0,
+            108.47224887375104,
+            92.11008804758747
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p0_m1.col",
+        "bytes": 38808,
+        "vertices": 2719,
+        "triangles": 2565,
+        "bounds": [
+          [
+            -98.015625,
+            -96.0,
+            -6.3203125
+          ],
+          [
+            100.2421875,
+            108.0234375,
+            89.0078125
+          ]
+        ]
+      },
+      "localCenter": [
+        96.0,
+        -96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "leaves",
+        "painted_metal",
+        "emissive",
+        "glass",
+        "roof",
+        "window_dark",
+        "metal",
+        "window_warm",
+        "window_cool",
+        "sign",
+        "brick",
+        "wood",
+        "stone"
+      ]
+    },
+    {
+      "name": "tile_p1_m1",
+      "high": {
+        "path": "models/fc_tile_p1_m1_hi.dff",
+        "bytes": 226963,
+        "vertices": 5018,
+        "triangles": 2200,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "leaves",
+          "painted_metal",
+          "metal",
+          "emissive",
+          "sign",
+          "wood"
+        ],
+        "bounds": [
+          [
+            -148.7395078458993,
+            -96.0,
+            -6.597654038419106
+          ],
+          [
+            160.0,
+            124.15232148143372,
+            10.544283169570697
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p1_m1_lo.dff",
+        "bytes": 37452,
+        "vertices": 795,
+        "triangles": 371,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking"
+        ],
+        "bounds": [
+          [
+            -112.0,
+            -96.0,
+            -6.388424967146667
+          ],
+          [
+            160.0,
+            104.0,
+            4.201957982976881
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p1_m1.col",
+        "bytes": 15188,
+        "vertices": 1052,
+        "triangles": 996,
+        "bounds": [
+          [
+            -99.40625,
+            -96.0,
+            -6.59375
+          ],
+          [
+            48.0,
+            96.6875,
+            10.2421875
+          ]
+        ]
+      },
+      "localCenter": [
+        288.0,
+        -96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "leaves",
+        "painted_metal",
+        "metal",
+        "emissive",
+        "sign",
+        "wood"
+      ]
+    },
+    {
+      "name": "tile_m2_p0",
+      "high": {
+        "path": "models/fc_tile_m2_p0_hi.dff",
+        "bytes": 396398,
+        "vertices": 8872,
+        "triangles": 3742,
+        "materials": [
+          "soil",
+          "grass",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "painted_metal",
+          "metal",
+          "emissive",
+          "sign",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -156.11869938426705,
+            -3.0
+          ],
+          [
+            98.80486732988297,
+            96.0,
+            19.872399470233553
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m2_p0_lo.dff",
+        "bytes": 53228,
+        "vertices": 1146,
+        "triangles": 528,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -101.91305711317082,
+            -3.0
+          ],
+          [
+            100.0,
+            108.0,
+            14.024925086946832
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m2_p0.col",
+        "bytes": 21124,
+        "vertices": 1504,
+        "triangles": 1378,
+        "bounds": [
+          [
+            -60.0,
+            -96.84375,
+            -3.0
+          ],
+          [
+            98.8046875,
+            96.0,
+            15.375
+          ]
+        ]
+      },
+      "localCenter": [
+        -288.0,
+        96.0,
+        0.0
+      ],
+      "materials": [
+        "soil",
+        "grass",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "painted_metal",
+        "metal",
+        "emissive",
+        "sign",
+        "leaves"
+      ]
+    },
+    {
+      "name": "tile_m1_p0",
+      "high": {
+        "path": "models/fc_tile_m1_p0_hi.dff",
+        "bytes": 1457805,
+        "vertices": 32327,
+        "triangles": 14533,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "stone",
+          "window_dark",
+          "metal",
+          "window_warm",
+          "window_cool",
+          "brick",
+          "roof",
+          "painted_metal",
+          "painted_concrete",
+          "wood",
+          "emissive",
+          "sign",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -99.56219847420863,
+            -148.0378360726487,
+            -2.2
+          ],
+          [
+            96.40879885542202,
+            97.41733191547664,
+            66.19686523127393
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m1_p0_lo.dff",
+        "bytes": 230999,
+        "vertices": 5018,
+        "triangles": 2364,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "stone",
+          "window_dark",
+          "window_warm",
+          "window_cool",
+          "brick",
+          "roof",
+          "metal",
+          "painted_concrete",
+          "painted_metal",
+          "wood",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -97.28910277188294,
+            -101.90482089336905,
+            -2.2
+          ],
+          [
+            104.0,
+            108.0,
+            66.19686523127393
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m1_p0.col",
+        "bytes": 36804,
+        "vertices": 2682,
+        "triangles": 2360,
+        "bounds": [
+          [
+            -99.5625,
+            -99.3828125,
+            -0.1171875
+          ],
+          [
+            96.0,
+            97.4140625,
+            65.296875
+          ]
+        ]
+      },
+      "localCenter": [
+        -96.0,
+        96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "stone",
+        "window_dark",
+        "metal",
+        "window_warm",
+        "window_cool",
+        "brick",
+        "roof",
+        "painted_metal",
+        "painted_concrete",
+        "wood",
+        "emissive",
+        "sign",
+        "leaves"
+      ]
+    },
+    {
+      "name": "tile_p0_p0",
+      "high": {
+        "path": "models/fc_tile_p0_p0_hi.dff",
+        "bytes": 1381181,
+        "vertices": 30653,
+        "triangles": 13715,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "stone",
+          "leaves",
+          "glass",
+          "window_dark",
+          "metal",
+          "window_warm",
+          "window_cool",
+          "roof",
+          "painted_metal",
+          "painted_concrete",
+          "emissive",
+          "sign",
+          "wood"
+        ],
+        "bounds": [
+          [
+            -97.49539094150302,
+            -131.03785314956284,
+            -2.2
+          ],
+          [
+            133.80312056000278,
+            103.38776717745446,
+            89.91008804758748
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p0_p0_lo.dff",
+        "bytes": 194096,
+        "vertices": 4221,
+        "triangles": 1961,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "glass",
+          "window_dark",
+          "window_warm",
+          "window_cool",
+          "stone",
+          "roof",
+          "metal",
+          "painted_concrete",
+          "wood",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -98.09996599926814,
+            -101.84930639212207,
+            -2.2
+          ],
+          [
+            108.0,
+            108.0,
+            89.91008804758748
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p0_p0.col",
+        "bytes": 45008,
+        "vertices": 3375,
+        "triangles": 2834,
+        "bounds": [
+          [
+            -97.4921875,
+            -98.34375,
+            -0.34375
+          ],
+          [
+            105.515625,
+            102.9375,
+            89.0078125
+          ]
+        ]
+      },
+      "localCenter": [
+        96.0,
+        96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "stone",
+        "leaves",
+        "glass",
+        "window_dark",
+        "metal",
+        "window_warm",
+        "window_cool",
+        "roof",
+        "painted_metal",
+        "painted_concrete",
+        "emissive",
+        "sign",
+        "wood"
+      ]
+    },
+    {
+      "name": "tile_p1_p0",
+      "high": {
+        "path": "models/fc_tile_p1_p0_hi.dff",
+        "bytes": 388795,
+        "vertices": 8778,
+        "triangles": 3516,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "leaves",
+          "metal",
+          "window_dark",
+          "painted_metal",
+          "emissive",
+          "sign",
+          "wood"
+        ],
+        "bounds": [
+          [
+            -148.9726943000336,
+            -114.0233784451909,
+            -3.0
+          ],
+          [
+            160.0,
+            103.38776717745446,
+            14.789535569968784
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p1_p0_lo.dff",
+        "bytes": 67086,
+        "vertices": 1457,
+        "triangles": 631,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "sidewalk",
+          "concrete",
+          "road_marking",
+          "metal",
+          "window_dark",
+          "wood",
+          "leaves"
+        ],
+        "bounds": [
+          [
+            -112.0,
+            -101.81984332024362,
+            -3.0
+          ],
+          [
+            160.0,
+            108.0,
+            14.789535569968784
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p1_p0.col",
+        "bytes": 17704,
+        "vertices": 1244,
+        "triangles": 1149,
+        "bounds": [
+          [
+            -101.890625,
+            -96.5703125,
+            -3.0
+          ],
+          [
+            60.0,
+            102.9375,
+            13.890625
+          ]
+        ]
+      },
+      "localCenter": [
+        288.0,
+        96.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "sidewalk",
+        "concrete",
+        "road_marking",
+        "leaves",
+        "metal",
+        "window_dark",
+        "painted_metal",
+        "emissive",
+        "sign",
+        "wood"
+      ]
+    },
+    {
+      "name": "tile_m2_p1",
+      "high": {
+        "path": "models/fc_tile_m2_p1_hi.dff",
+        "bytes": 17450,
+        "vertices": 352,
+        "triangles": 176,
+        "materials": [
+          "grass",
+          "water",
+          "asphalt",
+          "metal",
+          "painted_metal",
+          "concrete"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -96.0,
+            -3.0
+          ],
+          [
+            98.1365387757682,
+            160.0,
+            19.1
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m2_p1_lo.dff",
+        "bytes": 12626,
+        "vertices": 248,
+        "triangles": 122,
+        "materials": [
+          "grass",
+          "water",
+          "asphalt",
+          "metal",
+          "painted_metal",
+          "concrete"
+        ],
+        "bounds": [
+          [
+            -160.0,
+            -112.0,
+            -3.0
+          ],
+          [
+            102.31512432634491,
+            160.0,
+            19.1
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m2_p1.col",
+        "bytes": 2280,
+        "vertices": 144,
+        "triangles": 144,
+        "bounds": [
+          [
+            12.0,
+            -96.0,
+            -3.0
+          ],
+          [
+            98.1328125,
+            -24.0,
+            19.1015625
+          ]
+        ]
+      },
+      "localCenter": [
+        -288.0,
+        288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "water",
+        "asphalt",
+        "metal",
+        "painted_metal",
+        "concrete"
+      ]
+    },
+    {
+      "name": "tile_m1_p1",
+      "high": {
+        "path": "models/fc_tile_m1_p1_hi.dff",
+        "bytes": 63732,
+        "vertices": 1356,
+        "triangles": 668,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "metal",
+          "painted_metal",
+          "concrete",
+          "sign"
+        ],
+        "bounds": [
+          [
+            -100.4950650095889,
+            -96.81840758671274,
+            -3.0
+          ],
+          [
+            96.58464190324835,
+            160.0,
+            22.3
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_m1_p1_lo.dff",
+        "bytes": 37228,
+        "vertices": 782,
+        "triangles": 376,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "metal",
+          "painted_metal",
+          "concrete",
+          "sign"
+        ],
+        "bounds": [
+          [
+            -103.00900187736528,
+            -112.0,
+            -3.0
+          ],
+          [
+            104.0,
+            160.0,
+            22.3
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_m1_p1.col",
+        "bytes": 9332,
+        "vertices": 573,
+        "triangles": 644,
+        "bounds": [
+          [
+            -100.4921875,
+            -96.8203125,
+            -3.0
+          ],
+          [
+            96.5859375,
+            36.0,
+            22.296875
+          ]
+        ]
+      },
+      "localCenter": [
+        -96.0,
+        288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "metal",
+        "painted_metal",
+        "concrete",
+        "sign"
+      ]
+    },
+    {
+      "name": "tile_p0_p1",
+      "high": {
+        "path": "models/fc_tile_p0_p1_hi.dff",
+        "bytes": 71761,
+        "vertices": 1522,
+        "triangles": 748,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "metal",
+          "roof",
+          "window_dark",
+          "window_cool",
+          "concrete",
+          "painted_metal",
+          "sign"
+        ],
+        "bounds": [
+          [
+            -96.65285318398823,
+            -105.38776717745446,
+            -3.0
+          ],
+          [
+            105.96566198095425,
+            160.0,
+            22.3
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p0_p1_lo.dff",
+        "bytes": 39865,
+        "vertices": 831,
+        "triangles": 397,
+        "materials": [
+          "grass",
+          "soil",
+          "water",
+          "asphalt",
+          "metal",
+          "roof",
+          "window_dark",
+          "window_cool",
+          "concrete",
+          "painted_metal",
+          "sign"
+        ],
+        "bounds": [
+          [
+            -102.48417980588385,
+            -112.0,
+            -3.0
+          ],
+          [
+            108.0,
+            160.0,
+            22.3
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p0_p1.col",
+        "bytes": 9268,
+        "vertices": 574,
+        "triangles": 639,
+        "bounds": [
+          [
+            -96.65625,
+            -104.9375,
+            -3.0
+          ],
+          [
+            105.515625,
+            36.0,
+            22.296875
+          ]
+        ]
+      },
+      "localCenter": [
+        96.0,
+        288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "soil",
+        "water",
+        "asphalt",
+        "metal",
+        "roof",
+        "window_dark",
+        "window_cool",
+        "concrete",
+        "painted_metal",
+        "sign"
+      ]
+    },
+    {
+      "name": "tile_p1_p1",
+      "high": {
+        "path": "models/fc_tile_p1_p1_hi.dff",
+        "bytes": 16202,
+        "vertices": 322,
+        "triangles": 160,
+        "materials": [
+          "grass",
+          "water",
+          "asphalt",
+          "metal",
+          "window_dark",
+          "concrete",
+          "painted_metal"
+        ],
+        "bounds": [
+          [
+            -97.7391117297145,
+            -105.38776717745446,
+            -3.0
+          ],
+          [
+            160.0,
+            160.0,
+            19.1
+          ]
+        ]
+      },
+      "low": {
+        "path": "models/fc_tile_p1_p1_lo.dff",
+        "bytes": 11322,
+        "vertices": 217,
+        "triangles": 105,
+        "materials": [
+          "grass",
+          "water",
+          "asphalt",
+          "metal",
+          "window_dark",
+          "concrete",
+          "painted_metal"
+        ],
+        "bounds": [
+          [
+            -112.0,
+            -112.0,
+            -3.0
+          ],
+          [
+            160.0,
+            160.0,
+            19.1
+          ]
+        ]
+      },
+      "collision": {
+        "path": "models/fc_tile_p1_p1.col",
+        "bytes": 1868,
+        "vertices": 124,
+        "triangles": 111,
+        "bounds": [
+          [
+            -97.7421875,
+            -104.9375,
+            -3.0
+          ],
+          [
+            -24.0,
+            -24.0,
+            19.1015625
+          ]
+        ]
+      },
+      "localCenter": [
+        288.0,
+        288.0,
+        0.0
+      ],
+      "materials": [
+        "grass",
+        "water",
+        "asphalt",
+        "metal",
+        "window_dark",
+        "concrete",
+        "painted_metal"
+      ]
+    }
+  ],
+  "textureDictionary": {
+    "path": "textures/fc_materials.txd",
+    "bytes": 2406872,
+    "textures": 22,
+    "names": [
+      "fc_asphalt",
+      "fc_concrete",
+      "fc_sidewalk",
+      "fc_brick",
+      "fc_paintcon",
+      "fc_glass",
+      "fc_metal",
+      "fc_pmetal",
+      "fc_roof",
+      "fc_grass",
+      "fc_soil",
+      "fc_sand",
+      "fc_roadmark",
+      "fc_wood",
+      "fc_stone",
+      "fc_windark",
+      "fc_winwarm",
+      "fc_wincool",
+      "fc_sign",
+      "fc_water",
+      "fc_leaves",
+      "fc_emissive"
+    ]
+  },
+  "limitations": [
+    "MTA's DX9 shader path uses local normal/specular response, not depth-aware SSR.",
+    "Dynamic shadows/global illumination are not supplied by this resource.",
+    "Rain puddles are gradual material masks, not geometry or screen-space puddles."
+  ]
+}

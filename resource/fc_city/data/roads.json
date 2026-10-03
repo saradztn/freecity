@@ -1,0 +1,4526 @@
+{
+  "schema": 1,
+  "nodes": [
+    {
+      "id": "n000",
+      "x": -220.0,
+      "y": -180.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r000",
+        "r026"
+      ]
+    },
+    {
+      "id": "n001",
+      "x": -200.0,
+      "y": -180.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r000",
+        "r001",
+        "r028"
+      ]
+    },
+    {
+      "id": "n002",
+      "x": -170.0,
+      "y": -180.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r001",
+        "r002",
+        "r030"
+      ]
+    },
+    {
+      "id": "n003",
+      "x": -110.0,
+      "y": -180.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r002",
+        "r003",
+        "r032"
+      ]
+    },
+    {
+      "id": "n004",
+      "x": 10.0,
+      "y": -180.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r003",
+        "r004",
+        "r034"
+      ]
+    },
+    {
+      "id": "n005",
+      "x": 130.0,
+      "y": -180.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r004",
+        "r005",
+        "r036"
+      ]
+    },
+    {
+      "id": "n006",
+      "x": 230.0,
+      "y": -180.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r005",
+        "r040"
+      ]
+    },
+    {
+      "id": "n007",
+      "x": -220.0,
+      "y": -75.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r006",
+        "r026",
+        "r027"
+      ]
+    },
+    {
+      "id": "n008",
+      "x": -200.0,
+      "y": -70.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r006",
+        "r007",
+        "r028",
+        "r029"
+      ]
+    },
+    {
+      "id": "n009",
+      "x": -170.0,
+      "y": -62.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r009",
+        "r010",
+        "r030",
+        "r031"
+      ]
+    },
+    {
+      "id": "n010",
+      "x": -110.0,
+      "y": -55.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r010",
+        "r011",
+        "r032",
+        "r033"
+      ]
+    },
+    {
+      "id": "n011",
+      "x": 10.0,
+      "y": -45.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r011",
+        "r012",
+        "r034",
+        "r035"
+      ]
+    },
+    {
+      "id": "n012",
+      "x": 130.0,
+      "y": -38.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r012",
+        "r013",
+        "r038",
+        "r039"
+      ]
+    },
+    {
+      "id": "n013",
+      "x": 230.0,
+      "y": -28.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r013",
+        "r040",
+        "r041"
+      ]
+    },
+    {
+      "id": "n014",
+      "x": -220.0,
+      "y": 40.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r014",
+        "r027",
+        "r042"
+      ]
+    },
+    {
+      "id": "n015",
+      "x": -200.0,
+      "y": 44.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r014",
+        "r015",
+        "r029",
+        "r043"
+      ]
+    },
+    {
+      "id": "n016",
+      "x": -170.0,
+      "y": 48.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r015",
+        "r016",
+        "r031",
+        "r044"
+      ]
+    },
+    {
+      "id": "n017",
+      "x": -110.0,
+      "y": 54.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r016",
+        "r017",
+        "r033",
+        "r045"
+      ]
+    },
+    {
+      "id": "n018",
+      "x": 10.0,
+      "y": 58.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r017",
+        "r018",
+        "r035",
+        "r046"
+      ]
+    },
+    {
+      "id": "n019",
+      "x": 130.0,
+      "y": 50.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r018",
+        "r019",
+        "r039",
+        "r055"
+      ]
+    },
+    {
+      "id": "n020",
+      "x": 230.0,
+      "y": 38.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r019",
+        "r041",
+        "r058"
+      ]
+    },
+    {
+      "id": "n021",
+      "x": -220.0,
+      "y": 150.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r020",
+        "r042"
+      ]
+    },
+    {
+      "id": "n022",
+      "x": -200.0,
+      "y": 148.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r020",
+        "r021",
+        "r043"
+      ]
+    },
+    {
+      "id": "n023",
+      "x": -170.0,
+      "y": 145.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r021",
+        "r022",
+        "r044"
+      ]
+    },
+    {
+      "id": "n024",
+      "x": -110.0,
+      "y": 142.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r022",
+        "r023",
+        "r045",
+        "r062"
+      ]
+    },
+    {
+      "id": "n025",
+      "x": 10.0,
+      "y": 150.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r023",
+        "r024",
+        "r046"
+      ]
+    },
+    {
+      "id": "n026",
+      "x": 130.0,
+      "y": 165.0,
+      "kind": "junction",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "four_way",
+      "connections": [
+        "r024",
+        "r025",
+        "r056",
+        "r063"
+      ]
+    },
+    {
+      "id": "n027",
+      "x": 230.0,
+      "y": 180.0,
+      "kind": "boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r025",
+        "r057"
+      ]
+    },
+    {
+      "id": "n028",
+      "x": -192.0,
+      "y": -68.0,
+      "kind": "tunnel_portal",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r007",
+        "r008"
+      ]
+    },
+    {
+      "id": "n029",
+      "x": -178.0,
+      "y": -64.0,
+      "kind": "tunnel_portal",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r008",
+        "r009"
+      ]
+    },
+    {
+      "id": "n030",
+      "x": 130.0,
+      "y": -145.0,
+      "kind": "bridge_approach",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r036",
+        "r037"
+      ]
+    },
+    {
+      "id": "n031",
+      "x": 130.0,
+      "y": -105.0,
+      "kind": "bridge_approach",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "continuation",
+      "connections": [
+        "r037",
+        "r038"
+      ]
+    },
+    {
+      "id": "n032",
+      "x": 194.0,
+      "y": 90.0,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r047",
+        "r054",
+        "r056"
+      ]
+    },
+    {
+      "id": "n033",
+      "x": 189.899,
+      "y": 99.899,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r047",
+        "r048"
+      ]
+    },
+    {
+      "id": "n034",
+      "x": 180.0,
+      "y": 104.0,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r048",
+        "r049",
+        "r055"
+      ]
+    },
+    {
+      "id": "n035",
+      "x": 170.101,
+      "y": 99.899,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r049",
+        "r050"
+      ]
+    },
+    {
+      "id": "n036",
+      "x": 166.0,
+      "y": 90.0,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r050",
+        "r051",
+        "r058"
+      ]
+    },
+    {
+      "id": "n037",
+      "x": 170.101,
+      "y": 80.101,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r051",
+        "r052"
+      ]
+    },
+    {
+      "id": "n038",
+      "x": 180.0,
+      "y": 76.0,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r052",
+        "r053"
+      ]
+    },
+    {
+      "id": "n039",
+      "x": 189.899,
+      "y": 80.101,
+      "kind": "roundabout",
+      "boundary": false,
+      "roundabout": true,
+      "intersection": "roundabout",
+      "connections": [
+        "r053",
+        "r054",
+        "r057"
+      ]
+    },
+    {
+      "id": "n040",
+      "x": -245.0,
+      "y": 210.0,
+      "kind": "highway_boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "boundary",
+      "connections": [
+        "r059"
+      ]
+    },
+    {
+      "id": "n041",
+      "x": -70.0,
+      "y": 210.0,
+      "kind": "merge",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r059",
+        "r060",
+        "r062"
+      ]
+    },
+    {
+      "id": "n042",
+      "x": 70.0,
+      "y": 210.0,
+      "kind": "merge",
+      "boundary": false,
+      "roundabout": false,
+      "intersection": "t_junction",
+      "connections": [
+        "r060",
+        "r061",
+        "r063"
+      ]
+    },
+    {
+      "id": "n043",
+      "x": 245.0,
+      "y": 210.0,
+      "kind": "highway_boundary",
+      "boundary": true,
+      "roundabout": false,
+      "intersection": "boundary",
+      "connections": [
+        "r061"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "r000",
+      "from": "n000",
+      "to": "n001",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        -180.0
+      ],
+      "end_xy": [
+        -200.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          -213.4,
+          -178.6
+        ],
+        [
+          -206.4,
+          -180.8
+        ]
+      ],
+      "length": 20.06,
+      "tags": {}
+    },
+    {
+      "id": "r001",
+      "from": "n001",
+      "to": "n002",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "forward",
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        -180.0
+      ],
+      "end_xy": [
+        -170.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          -190.1,
+          -178.6
+        ],
+        [
+          -179.6,
+          -180.8
+        ]
+      ],
+      "length": 30.04,
+      "tags": {}
+    },
+    {
+      "id": "r002",
+      "from": "n002",
+      "to": "n003",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        -180.0
+      ],
+      "end_xy": [
+        -110.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          -150.2,
+          -178.6
+        ],
+        [
+          -129.2,
+          -180.8
+        ]
+      ],
+      "length": 60.02,
+      "tags": {}
+    },
+    {
+      "id": "r003",
+      "from": "n003",
+      "to": "n004",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        -180.0
+      ],
+      "end_xy": [
+        10.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          -70.4,
+          -178.6
+        ],
+        [
+          -28.39999999999999,
+          -180.8
+        ]
+      ],
+      "length": 120.01,
+      "tags": {}
+    },
+    {
+      "id": "r004",
+      "from": "n004",
+      "to": "n005",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "reverse",
+        "reverse"
+      ],
+      "direction": "reverse",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        -180.0
+      ],
+      "end_xy": [
+        130.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          49.6,
+          -178.6
+        ],
+        [
+          91.60000000000001,
+          -180.8
+        ]
+      ],
+      "length": 120.01,
+      "tags": {}
+    },
+    {
+      "id": "r005",
+      "from": "n005",
+      "to": "n006",
+      "kind": "residential",
+      "name": "Mariner Street",
+      "lanes": 2,
+      "lane_width": 3.25,
+      "road_width": 6.5,
+      "paved_width": 7.6,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        -180.0
+      ],
+      "end_xy": [
+        230.0,
+        -180.0
+      ],
+      "controls": [
+        [
+          163.0,
+          -178.6
+        ],
+        [
+          198.0,
+          -180.8
+        ]
+      ],
+      "length": 100.01,
+      "tags": {}
+    },
+    {
+      "id": "r006",
+      "from": "n007",
+      "to": "n008",
+      "kind": "boulevard",
+      "name": "Harbor Boulevard",
+      "lanes": 4,
+      "lane_width": 3.5,
+      "road_width": 15.0,
+      "paved_width": 16.1,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 50,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        -75.0
+      ],
+      "end_xy": [
+        -200.0,
+        -70.0
+      ],
+      "controls": [
+        [
+          -213.2,
+          -74.1
+        ],
+        [
+          -206.4,
+          -71.4
+        ]
+      ],
+      "length": 20.63,
+      "tags": {}
+    },
+    {
+      "id": "r007",
+      "from": "n008",
+      "to": "n028",
+      "kind": "tunnel",
+      "name": "West Ridge Tunnel Entrance",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 25,
+      "alignment": "ramp",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        -70.0
+      ],
+      "end_xy": [
+        -192.0,
+        -68.0
+      ],
+      "controls": null,
+      "length": 8.25,
+      "tags": {
+        "tunnel": true,
+        "tunnel_approach": true,
+        "cut_depth": 4.5
+      }
+    },
+    {
+      "id": "r008",
+      "from": "n028",
+      "to": "n029",
+      "kind": "tunnel",
+      "name": "West Ridge Tunnel",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -192.0,
+        -68.0
+      ],
+      "end_xy": [
+        -178.0,
+        -64.0
+      ],
+      "controls": null,
+      "length": 14.56,
+      "tags": {
+        "tunnel": true,
+        "cut_depth": 4.5
+      }
+    },
+    {
+      "id": "r009",
+      "from": "n029",
+      "to": "n009",
+      "kind": "tunnel",
+      "name": "West Ridge Tunnel Exit",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 25,
+      "alignment": "ramp",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -178.0,
+        -64.0
+      ],
+      "end_xy": [
+        -170.0,
+        -62.0
+      ],
+      "controls": null,
+      "length": 8.25,
+      "tags": {
+        "tunnel": true,
+        "tunnel_approach": true,
+        "cut_depth": 4.5
+      }
+    },
+    {
+      "id": "r010",
+      "from": "n009",
+      "to": "n010",
+      "kind": "boulevard",
+      "name": "Harbor Boulevard",
+      "lanes": 4,
+      "lane_width": 3.5,
+      "road_width": 15.0,
+      "paved_width": 16.1,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 50,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        -62.0
+      ],
+      "end_xy": [
+        -110.0,
+        -55.0
+      ],
+      "controls": [
+        [
+          -149.6,
+          -60.1
+        ],
+        [
+          -129.2,
+          -57.4
+        ]
+      ],
+      "length": 60.41,
+      "tags": {}
+    },
+    {
+      "id": "r011",
+      "from": "n010",
+      "to": "n011",
+      "kind": "boulevard",
+      "name": "Harbor Boulevard",
+      "lanes": 4,
+      "lane_width": 3.5,
+      "road_width": 15.0,
+      "paved_width": 16.1,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 50,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        -55.0
+      ],
+      "end_xy": [
+        10.0,
+        -45.0
+      ],
+      "controls": [
+        [
+          -69.19999999999999,
+          -51.6
+        ],
+        [
+          -28.39999999999999,
+          -48.9
+        ]
+      ],
+      "length": 120.42,
+      "tags": {}
+    },
+    {
+      "id": "r012",
+      "from": "n011",
+      "to": "n012",
+      "kind": "boulevard",
+      "name": "Harbor Boulevard",
+      "lanes": 4,
+      "lane_width": 3.5,
+      "road_width": 15.0,
+      "paved_width": 16.1,
+      "lane_directions": [
+        "reverse",
+        "reverse",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "reverse",
+      "speed_kph": 50,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        -45.0
+      ],
+      "end_xy": [
+        130.0,
+        -38.0
+      ],
+      "controls": [
+        [
+          50.800000000000004,
+          -43.1
+        ],
+        [
+          91.60000000000001,
+          -40.4
+        ]
+      ],
+      "length": 120.21,
+      "tags": {}
+    },
+    {
+      "id": "r013",
+      "from": "n012",
+      "to": "n013",
+      "kind": "boulevard",
+      "name": "Harbor Boulevard",
+      "lanes": 4,
+      "lane_width": 3.5,
+      "road_width": 15.0,
+      "paved_width": 16.1,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 50,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        -38.0
+      ],
+      "end_xy": [
+        230.0,
+        -28.0
+      ],
+      "controls": [
+        [
+          164.0,
+          -34.6
+        ],
+        [
+          198.0,
+          -31.9
+        ]
+      ],
+      "length": 100.5,
+      "tags": {}
+    },
+    {
+      "id": "r014",
+      "from": "n014",
+      "to": "n015",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        40.0
+      ],
+      "end_xy": [
+        -200.0,
+        44.0
+      ],
+      "controls": [
+        [
+          -213.6,
+          43.7
+        ],
+        [
+          -206.0,
+          40.9
+        ]
+      ],
+      "length": 20.59,
+      "tags": {}
+    },
+    {
+      "id": "r015",
+      "from": "n015",
+      "to": "n016",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        44.0
+      ],
+      "end_xy": [
+        -170.0,
+        48.0
+      ],
+      "controls": [
+        [
+          -190.4,
+          47.7
+        ],
+        [
+          -179.0,
+          44.9
+        ]
+      ],
+      "length": 30.4,
+      "tags": {}
+    },
+    {
+      "id": "r016",
+      "from": "n016",
+      "to": "n017",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        48.0
+      ],
+      "end_xy": [
+        -110.0,
+        54.0
+      ],
+      "controls": [
+        [
+          -150.8,
+          52.7
+        ],
+        [
+          -128.0,
+          49.9
+        ]
+      ],
+      "length": 60.4,
+      "tags": {}
+    },
+    {
+      "id": "r017",
+      "from": "n017",
+      "to": "n018",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        54.0
+      ],
+      "end_xy": [
+        10.0,
+        58.0
+      ],
+      "controls": [
+        [
+          -71.6,
+          57.7
+        ],
+        [
+          -26.0,
+          54.9
+        ]
+      ],
+      "length": 120.1,
+      "tags": {}
+    },
+    {
+      "id": "r018",
+      "from": "n018",
+      "to": "n019",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        58.0
+      ],
+      "end_xy": [
+        130.0,
+        50.0
+      ],
+      "controls": [
+        [
+          48.4,
+          55.7
+        ],
+        [
+          94.0,
+          52.9
+        ]
+      ],
+      "length": 120.27,
+      "tags": {}
+    },
+    {
+      "id": "r019",
+      "from": "n019",
+      "to": "n020",
+      "kind": "local",
+      "name": "Cedar Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        50.0
+      ],
+      "end_xy": [
+        230.0,
+        38.0
+      ],
+      "controls": [
+        [
+          162.0,
+          45.7
+        ],
+        [
+          200.0,
+          42.9
+        ]
+      ],
+      "length": 100.73,
+      "tags": {}
+    },
+    {
+      "id": "r020",
+      "from": "n021",
+      "to": "n022",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        150.0
+      ],
+      "end_xy": [
+        -200.0,
+        148.0
+      ],
+      "controls": [
+        [
+          -213.8,
+          150.4
+        ],
+        [
+          -206.2,
+          148.0
+        ]
+      ],
+      "length": 20.13,
+      "tags": {}
+    },
+    {
+      "id": "r021",
+      "from": "n022",
+      "to": "n023",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        148.0
+      ],
+      "end_xy": [
+        -170.0,
+        145.0
+      ],
+      "controls": [
+        [
+          -190.7,
+          147.9
+        ],
+        [
+          -179.3,
+          145.5
+        ]
+      ],
+      "length": 30.16,
+      "tags": {}
+    },
+    {
+      "id": "r022",
+      "from": "n023",
+      "to": "n024",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        145.0
+      ],
+      "end_xy": [
+        -110.0,
+        142.0
+      ],
+      "controls": [
+        [
+          -151.4,
+          144.9
+        ],
+        [
+          -128.6,
+          142.5
+        ]
+      ],
+      "length": 60.08,
+      "tags": {}
+    },
+    {
+      "id": "r023",
+      "from": "n024",
+      "to": "n025",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        142.0
+      ],
+      "end_xy": [
+        10.0,
+        150.0
+      ],
+      "controls": [
+        [
+          -72.8,
+          147.4
+        ],
+        [
+          -27.200000000000003,
+          145.0
+        ]
+      ],
+      "length": 120.32,
+      "tags": {}
+    },
+    {
+      "id": "r024",
+      "from": "n025",
+      "to": "n026",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        150.0
+      ],
+      "end_xy": [
+        130.0,
+        165.0
+      ],
+      "controls": [
+        [
+          47.2,
+          158.9
+        ],
+        [
+          92.8,
+          156.5
+        ]
+      ],
+      "length": 121.05,
+      "tags": {}
+    },
+    {
+      "id": "r025",
+      "from": "n026",
+      "to": "n027",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        165.0
+      ],
+      "end_xy": [
+        230.0,
+        180.0
+      ],
+      "controls": [
+        [
+          161.0,
+          173.9
+        ],
+        [
+          199.0,
+          171.5
+        ]
+      ],
+      "length": 101.26,
+      "tags": {}
+    },
+    {
+      "id": "r026",
+      "from": "n000",
+      "to": "n007",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        -180.0
+      ],
+      "end_xy": [
+        -220.0,
+        -75.0
+      ],
+      "controls": [
+        [
+          -221.0,
+          -144.3
+        ],
+        [
+          -219.0,
+          -108.6
+        ]
+      ],
+      "length": 105.01,
+      "tags": {}
+    },
+    {
+      "id": "r027",
+      "from": "n007",
+      "to": "n014",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        -75.0
+      ],
+      "end_xy": [
+        -220.0,
+        40.0
+      ],
+      "controls": [
+        [
+          -221.0,
+          -35.9
+        ],
+        [
+          -218.0,
+          3.200000000000003
+        ]
+      ],
+      "length": 115.02,
+      "tags": {}
+    },
+    {
+      "id": "r028",
+      "from": "n001",
+      "to": "n008",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        -180.0
+      ],
+      "end_xy": [
+        -200.0,
+        -70.0
+      ],
+      "controls": [
+        [
+          -201.0,
+          -142.6
+        ],
+        [
+          -199.0,
+          -105.19999999999999
+        ]
+      ],
+      "length": 110.01,
+      "tags": {}
+    },
+    {
+      "id": "r029",
+      "from": "n008",
+      "to": "n015",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        -70.0
+      ],
+      "end_xy": [
+        -200.0,
+        44.0
+      ],
+      "controls": [
+        [
+          -198.0,
+          -31.239999999999995
+        ],
+        [
+          -201.0,
+          7.52000000000001
+        ]
+      ],
+      "length": 114.02,
+      "tags": {}
+    },
+    {
+      "id": "r030",
+      "from": "n002",
+      "to": "n009",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "reverse",
+        "reverse"
+      ],
+      "direction": "reverse",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        -180.0
+      ],
+      "end_xy": [
+        -170.0,
+        -62.0
+      ],
+      "controls": [
+        [
+          -171.0,
+          -139.88
+        ],
+        [
+          -169.0,
+          -99.75999999999999
+        ]
+      ],
+      "length": 118.01,
+      "tags": {}
+    },
+    {
+      "id": "r031",
+      "from": "n009",
+      "to": "n016",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        -62.0
+      ],
+      "end_xy": [
+        -170.0,
+        48.0
+      ],
+      "controls": [
+        [
+          -171.0,
+          -24.599999999999994
+        ],
+        [
+          -168.0,
+          12.800000000000011
+        ]
+      ],
+      "length": 110.02,
+      "tags": {}
+    },
+    {
+      "id": "r032",
+      "from": "n003",
+      "to": "n010",
+      "kind": "collector",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        -180.0
+      ],
+      "end_xy": [
+        -110.0,
+        -55.0
+      ],
+      "controls": [
+        [
+          -111.0,
+          -137.5
+        ],
+        [
+          -109.0,
+          -95.0
+        ]
+      ],
+      "length": 125.01,
+      "tags": {}
+    },
+    {
+      "id": "r033",
+      "from": "n010",
+      "to": "n017",
+      "kind": "collector",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        -55.0
+      ],
+      "end_xy": [
+        -110.0,
+        54.0
+      ],
+      "controls": [
+        [
+          -108.0,
+          -17.939999999999998
+        ],
+        [
+          -111.0,
+          19.120000000000005
+        ]
+      ],
+      "length": 109.02,
+      "tags": {}
+    },
+    {
+      "id": "r034",
+      "from": "n004",
+      "to": "n011",
+      "kind": "collector",
+      "name": "River Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        -180.0
+      ],
+      "end_xy": [
+        10.0,
+        -45.0
+      ],
+      "controls": [
+        [
+          9.0,
+          -134.1
+        ],
+        [
+          11.0,
+          -88.19999999999999
+        ]
+      ],
+      "length": 135.01,
+      "tags": {}
+    },
+    {
+      "id": "r035",
+      "from": "n011",
+      "to": "n018",
+      "kind": "collector",
+      "name": "Pioneer Avenue",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        -45.0
+      ],
+      "end_xy": [
+        10.0,
+        58.0
+      ],
+      "controls": [
+        [
+          9.0,
+          -9.979999999999997
+        ],
+        [
+          12.0,
+          25.040000000000006
+        ]
+      ],
+      "length": 103.02,
+      "tags": {}
+    },
+    {
+      "id": "r036",
+      "from": "n005",
+      "to": "n030",
+      "kind": "collector",
+      "name": "River Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        -180.0
+      ],
+      "end_xy": [
+        130.0,
+        -145.0
+      ],
+      "controls": null,
+      "length": 35.0,
+      "tags": {}
+    },
+    {
+      "id": "r037",
+      "from": "n030",
+      "to": "n031",
+      "kind": "bridge",
+      "name": "Northpoint Bridge",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "bridge",
+      "fixed_z": null,
+      "bridge_clearance": 5.0,
+      "start_xy": [
+        130.0,
+        -145.0
+      ],
+      "end_xy": [
+        130.0,
+        -105.0
+      ],
+      "controls": null,
+      "length": 40.0,
+      "tags": {
+        "bridge": true,
+        "deck_min_z": 0.8
+      }
+    },
+    {
+      "id": "r038",
+      "from": "n031",
+      "to": "n012",
+      "kind": "collector",
+      "name": "River Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        -105.0
+      ],
+      "end_xy": [
+        130.0,
+        -38.0
+      ],
+      "controls": null,
+      "length": 67.0,
+      "tags": {}
+    },
+    {
+      "id": "r039",
+      "from": "n012",
+      "to": "n019",
+      "kind": "collector",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 40,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        -38.0
+      ],
+      "end_xy": [
+        130.0,
+        50.0
+      ],
+      "controls": [
+        [
+          132.0,
+          -8.079999999999998
+        ],
+        [
+          129.0,
+          21.840000000000003
+        ]
+      ],
+      "length": 88.03,
+      "tags": {}
+    },
+    {
+      "id": "r040",
+      "from": "n006",
+      "to": "n013",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        230.0,
+        -180.0
+      ],
+      "end_xy": [
+        230.0,
+        -28.0
+      ],
+      "controls": [
+        [
+          229.0,
+          -128.32
+        ],
+        [
+          231.0,
+          -76.63999999999999
+        ]
+      ],
+      "length": 152.01,
+      "tags": {}
+    },
+    {
+      "id": "r041",
+      "from": "n013",
+      "to": "n020",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        230.0,
+        -28.0
+      ],
+      "end_xy": [
+        230.0,
+        38.0
+      ],
+      "controls": [
+        [
+          229.0,
+          -5.559999999999999
+        ],
+        [
+          232.0,
+          16.880000000000003
+        ]
+      ],
+      "length": 66.04,
+      "tags": {}
+    },
+    {
+      "id": "r042",
+      "from": "n014",
+      "to": "n021",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -220.0,
+        40.0
+      ],
+      "end_xy": [
+        -220.0,
+        150.0
+      ],
+      "controls": [
+        [
+          -221.0,
+          77.4
+        ],
+        [
+          -219.0,
+          114.80000000000001
+        ]
+      ],
+      "length": 110.01,
+      "tags": {}
+    },
+    {
+      "id": "r043",
+      "from": "n015",
+      "to": "n022",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -200.0,
+        44.0
+      ],
+      "end_xy": [
+        -200.0,
+        148.0
+      ],
+      "controls": [
+        [
+          -201.0,
+          79.36
+        ],
+        [
+          -199.0,
+          114.72
+        ]
+      ],
+      "length": 104.01,
+      "tags": {}
+    },
+    {
+      "id": "r044",
+      "from": "n016",
+      "to": "n023",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -170.0,
+        48.0
+      ],
+      "end_xy": [
+        -170.0,
+        145.0
+      ],
+      "controls": [
+        [
+          -171.0,
+          80.98
+        ],
+        [
+          -169.0,
+          113.96000000000001
+        ]
+      ],
+      "length": 97.01,
+      "tags": {}
+    },
+    {
+      "id": "r045",
+      "from": "n017",
+      "to": "n024",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -110.0,
+        54.0
+      ],
+      "end_xy": [
+        -110.0,
+        142.0
+      ],
+      "controls": [
+        [
+          -111.0,
+          83.92
+        ],
+        [
+          -109.0,
+          113.84
+        ]
+      ],
+      "length": 88.01,
+      "tags": {}
+    },
+    {
+      "id": "r046",
+      "from": "n018",
+      "to": "n025",
+      "kind": "local",
+      "name": "Local Street",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 35,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        10.0,
+        58.0
+      ],
+      "end_xy": [
+        10.0,
+        150.0
+      ],
+      "controls": [
+        [
+          9.0,
+          89.28
+        ],
+        [
+          11.0,
+          120.56
+        ]
+      ],
+      "length": 92.01,
+      "tags": {}
+    },
+    {
+      "id": "r047",
+      "from": "n032",
+      "to": "n033",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        194.0,
+        90.0
+      ],
+      "end_xy": [
+        189.89949493661166,
+        99.89949493661166
+      ],
+      "controls": [
+        [
+          190.08,
+          90.0
+        ],
+        [
+          187.1276363543604,
+          97.12763635436039
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r048",
+      "from": "n033",
+      "to": "n034",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        189.89949493661166,
+        99.89949493661166
+      ],
+      "end_xy": [
+        180.0,
+        104.0
+      ],
+      "controls": [
+        [
+          187.1276363543604,
+          97.12763635436039
+        ],
+        [
+          180.0,
+          100.08
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r049",
+      "from": "n034",
+      "to": "n035",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        180.0,
+        104.0
+      ],
+      "end_xy": [
+        170.10050506338834,
+        99.89949493661166
+      ],
+      "controls": [
+        [
+          180.0,
+          100.08
+        ],
+        [
+          172.8723636456396,
+          97.12763635436039
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r050",
+      "from": "n035",
+      "to": "n036",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        170.10050506338834,
+        99.89949493661166
+      ],
+      "end_xy": [
+        166.0,
+        90.0
+      ],
+      "controls": [
+        [
+          172.8723636456396,
+          97.12763635436039
+        ],
+        [
+          169.92000000000002,
+          90.0
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r051",
+      "from": "n036",
+      "to": "n037",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        166.0,
+        90.0
+      ],
+      "end_xy": [
+        170.10050506338834,
+        80.10050506338834
+      ],
+      "controls": [
+        [
+          169.92000000000002,
+          90.0
+        ],
+        [
+          172.8723636456396,
+          82.87236364563961
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r052",
+      "from": "n037",
+      "to": "n038",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        170.10050506338834,
+        80.10050506338834
+      ],
+      "end_xy": [
+        180.0,
+        76.0
+      ],
+      "controls": [
+        [
+          172.8723636456396,
+          82.87236364563961
+        ],
+        [
+          180.0,
+          79.92
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r053",
+      "from": "n038",
+      "to": "n039",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        180.0,
+        76.0
+      ],
+      "end_xy": [
+        189.89949493661166,
+        80.10050506338834
+      ],
+      "controls": [
+        [
+          180.0,
+          79.92
+        ],
+        [
+          187.1276363543604,
+          82.87236364563961
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r054",
+      "from": "n039",
+      "to": "n032",
+      "kind": "roundabout",
+      "name": "Northpoint Circle",
+      "lanes": 1,
+      "lane_width": 3.5,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 20,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        189.89949493661166,
+        80.10050506338834
+      ],
+      "end_xy": [
+        194.0,
+        90.0
+      ],
+      "controls": [
+        [
+          187.1276363543604,
+          82.87236364563961
+        ],
+        [
+          190.08,
+          90.0
+        ]
+      ],
+      "length": 12.69,
+      "tags": {}
+    },
+    {
+      "id": "r055",
+      "from": "n019",
+      "to": "n034",
+      "kind": "local",
+      "name": "East Park Drive",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        50.0
+      ],
+      "end_xy": [
+        180.0,
+        104.0
+      ],
+      "controls": [
+        [
+          151,
+          51
+        ],
+        [
+          155,
+          73
+        ]
+      ],
+      "length": 76.0,
+      "tags": {}
+    },
+    {
+      "id": "r056",
+      "from": "n026",
+      "to": "n032",
+      "kind": "local",
+      "name": "East Park Drive",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        165.0
+      ],
+      "end_xy": [
+        194.0,
+        90.0
+      ],
+      "controls": [
+        [
+          151,
+          159
+        ],
+        [
+          163,
+          128
+        ]
+      ],
+      "length": 99.83,
+      "tags": {}
+    },
+    {
+      "id": "r057",
+      "from": "n027",
+      "to": "n039",
+      "kind": "local",
+      "name": "Foundry Road",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        230.0,
+        180.0
+      ],
+      "end_xy": [
+        189.89949493661166,
+        80.10050506338834
+      ],
+      "controls": [
+        [
+          223,
+          150
+        ],
+        [
+          205,
+          121
+        ]
+      ],
+      "length": 107.77,
+      "tags": {}
+    },
+    {
+      "id": "r058",
+      "from": "n020",
+      "to": "n036",
+      "kind": "local",
+      "name": "East Park Drive",
+      "lanes": 2,
+      "lane_width": 3.5,
+      "road_width": 7.0,
+      "paved_width": 8.1,
+      "lane_directions": [
+        "forward",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 30,
+      "alignment": "terrain",
+      "fixed_z": null,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        230.0,
+        38.0
+      ],
+      "end_xy": [
+        166.0,
+        90.0
+      ],
+      "controls": [
+        [
+          229,
+          39
+        ],
+        [
+          207,
+          65
+        ]
+      ],
+      "length": 82.74,
+      "tags": {}
+    },
+    {
+      "id": "r059",
+      "from": "n040",
+      "to": "n041",
+      "kind": "highway",
+      "name": "I-14 Northpoint Freeway",
+      "lanes": 6,
+      "lane_width": 3.5,
+      "road_width": 24.0,
+      "paved_width": 28.0,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "forward",
+        "reverse",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 100,
+      "alignment": "fixed",
+      "fixed_z": 18.0,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -245.0,
+        210.0
+      ],
+      "end_xy": [
+        -70.0,
+        210.0
+      ],
+      "controls": [
+        [
+          -195,
+          214
+        ],
+        [
+          -128,
+          215
+        ]
+      ],
+      "length": 175.18,
+      "tags": {
+        "elevated": true,
+        "highway": true,
+        "segment": 0
+      }
+    },
+    {
+      "id": "r060",
+      "from": "n041",
+      "to": "n042",
+      "kind": "highway",
+      "name": "I-14 Northpoint Freeway",
+      "lanes": 6,
+      "lane_width": 3.5,
+      "road_width": 24.0,
+      "paved_width": 28.0,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "forward",
+        "reverse",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 100,
+      "alignment": "fixed",
+      "fixed_z": 18.0,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -70.0,
+        210.0
+      ],
+      "end_xy": [
+        70.0,
+        210.0
+      ],
+      "controls": [
+        [
+          -34,
+          216
+        ],
+        [
+          34,
+          207
+        ]
+      ],
+      "length": 140.16,
+      "tags": {
+        "elevated": true,
+        "highway": true,
+        "segment": 1
+      }
+    },
+    {
+      "id": "r061",
+      "from": "n042",
+      "to": "n043",
+      "kind": "highway",
+      "name": "I-14 Northpoint Freeway",
+      "lanes": 6,
+      "lane_width": 3.5,
+      "road_width": 24.0,
+      "paved_width": 28.0,
+      "lane_directions": [
+        "forward",
+        "forward",
+        "forward",
+        "reverse",
+        "reverse",
+        "reverse"
+      ],
+      "direction": "both",
+      "speed_kph": 100,
+      "alignment": "fixed",
+      "fixed_z": 18.0,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        70.0,
+        210.0
+      ],
+      "end_xy": [
+        245.0,
+        210.0
+      ],
+      "controls": [
+        [
+          128,
+          204
+        ],
+        [
+          196,
+          210
+        ]
+      ],
+      "length": 175.12,
+      "tags": {
+        "elevated": true,
+        "highway": true,
+        "segment": 2
+      }
+    },
+    {
+      "id": "r062",
+      "from": "n041",
+      "to": "n024",
+      "kind": "ramp",
+      "name": "Freeway Exit 3A",
+      "lanes": 1,
+      "lane_width": 3.25,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 35,
+      "alignment": "ramp",
+      "fixed_z": 18.0,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        -70.0,
+        210.0
+      ],
+      "end_xy": [
+        -110.0,
+        142.0
+      ],
+      "controls": [
+        [
+          -74,
+          197
+        ],
+        [
+          -96,
+          174
+        ]
+      ],
+      "length": 79.05,
+      "tags": {
+        "ramp": "exit",
+        "highway": true
+      }
+    },
+    {
+      "id": "r063",
+      "from": "n026",
+      "to": "n042",
+      "kind": "ramp",
+      "name": "Freeway Entrance 3B",
+      "lanes": 1,
+      "lane_width": 3.25,
+      "road_width": 3.5,
+      "paved_width": 4.0,
+      "lane_directions": [
+        "forward"
+      ],
+      "direction": "forward",
+      "speed_kph": 35,
+      "alignment": "ramp",
+      "fixed_z": 18.0,
+      "bridge_clearance": 0.0,
+      "start_xy": [
+        130.0,
+        165.0
+      ],
+      "end_xy": [
+        70.0,
+        210.0
+      ],
+      "controls": [
+        [
+          121,
+          176
+        ],
+        [
+          96,
+          194
+        ]
+      ],
+      "length": 75.22,
+      "tags": {
+        "ramp": "entrance",
+        "highway": true
+      }
+    }
+  ],
+  "turns": [
+    {
+      "node": "n000",
+      "from": "r000",
+      "to": "r026",
+      "turn": "left"
+    },
+    {
+      "node": "n000",
+      "from": "r026",
+      "to": "r000",
+      "turn": "right"
+    },
+    {
+      "node": "n001",
+      "from": "r000",
+      "to": "r001",
+      "turn": "left"
+    },
+    {
+      "node": "n001",
+      "from": "r000",
+      "to": "r028",
+      "turn": "left"
+    },
+    {
+      "node": "n001",
+      "from": "r028",
+      "to": "r000",
+      "turn": "right"
+    },
+    {
+      "node": "n001",
+      "from": "r028",
+      "to": "r001",
+      "turn": "right"
+    },
+    {
+      "node": "n002",
+      "from": "r001",
+      "to": "r002",
+      "turn": "right"
+    },
+    {
+      "node": "n002",
+      "from": "r030",
+      "to": "r002",
+      "turn": "right"
+    },
+    {
+      "node": "n003",
+      "from": "r002",
+      "to": "r003",
+      "turn": "right"
+    },
+    {
+      "node": "n003",
+      "from": "r002",
+      "to": "r032",
+      "turn": "left"
+    },
+    {
+      "node": "n003",
+      "from": "r003",
+      "to": "r002",
+      "turn": "left"
+    },
+    {
+      "node": "n003",
+      "from": "r003",
+      "to": "r032",
+      "turn": "left"
+    },
+    {
+      "node": "n003",
+      "from": "r032",
+      "to": "r002",
+      "turn": "right"
+    },
+    {
+      "node": "n003",
+      "from": "r032",
+      "to": "r003",
+      "turn": "right"
+    },
+    {
+      "node": "n004",
+      "from": "r003",
+      "to": "r034",
+      "turn": "left"
+    },
+    {
+      "node": "n004",
+      "from": "r004",
+      "to": "r003",
+      "turn": "right"
+    },
+    {
+      "node": "n004",
+      "from": "r004",
+      "to": "r034",
+      "turn": "left"
+    },
+    {
+      "node": "n004",
+      "from": "r034",
+      "to": "r003",
+      "turn": "right"
+    },
+    {
+      "node": "n005",
+      "from": "r005",
+      "to": "r004",
+      "turn": "right"
+    },
+    {
+      "node": "n005",
+      "from": "r005",
+      "to": "r036",
+      "turn": "left"
+    },
+    {
+      "node": "n005",
+      "from": "r036",
+      "to": "r004",
+      "turn": "right"
+    },
+    {
+      "node": "n005",
+      "from": "r036",
+      "to": "r005",
+      "turn": "right"
+    },
+    {
+      "node": "n006",
+      "from": "r005",
+      "to": "r040",
+      "turn": "left"
+    },
+    {
+      "node": "n006",
+      "from": "r040",
+      "to": "r005",
+      "turn": "right"
+    },
+    {
+      "node": "n007",
+      "from": "r006",
+      "to": "r026",
+      "turn": "left"
+    },
+    {
+      "node": "n007",
+      "from": "r006",
+      "to": "r027",
+      "turn": "left"
+    },
+    {
+      "node": "n007",
+      "from": "r026",
+      "to": "r006",
+      "turn": "right"
+    },
+    {
+      "node": "n007",
+      "from": "r026",
+      "to": "r027",
+      "turn": "right"
+    },
+    {
+      "node": "n007",
+      "from": "r027",
+      "to": "r006",
+      "turn": "right"
+    },
+    {
+      "node": "n007",
+      "from": "r027",
+      "to": "r026",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r006",
+      "to": "r007",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r006",
+      "to": "r028",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r006",
+      "to": "r029",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r007",
+      "to": "r006",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r007",
+      "to": "r028",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r007",
+      "to": "r029",
+      "turn": "left"
+    },
+    {
+      "node": "n008",
+      "from": "r028",
+      "to": "r006",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r028",
+      "to": "r007",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r028",
+      "to": "r029",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r029",
+      "to": "r006",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r029",
+      "to": "r007",
+      "turn": "right"
+    },
+    {
+      "node": "n008",
+      "from": "r029",
+      "to": "r028",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r009",
+      "to": "r010",
+      "turn": "right"
+    },
+    {
+      "node": "n009",
+      "from": "r009",
+      "to": "r030",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r009",
+      "to": "r031",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r010",
+      "to": "r009",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r010",
+      "to": "r030",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r010",
+      "to": "r031",
+      "turn": "left"
+    },
+    {
+      "node": "n009",
+      "from": "r031",
+      "to": "r009",
+      "turn": "right"
+    },
+    {
+      "node": "n009",
+      "from": "r031",
+      "to": "r010",
+      "turn": "right"
+    },
+    {
+      "node": "n009",
+      "from": "r031",
+      "to": "r030",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r010",
+      "to": "r011",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r010",
+      "to": "r032",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r010",
+      "to": "r033",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r011",
+      "to": "r010",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r011",
+      "to": "r032",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r011",
+      "to": "r033",
+      "turn": "left"
+    },
+    {
+      "node": "n010",
+      "from": "r032",
+      "to": "r010",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r032",
+      "to": "r011",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r032",
+      "to": "r033",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r033",
+      "to": "r010",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r033",
+      "to": "r011",
+      "turn": "right"
+    },
+    {
+      "node": "n010",
+      "from": "r033",
+      "to": "r032",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r011",
+      "to": "r034",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r011",
+      "to": "r035",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r012",
+      "to": "r011",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r012",
+      "to": "r034",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r012",
+      "to": "r035",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r034",
+      "to": "r011",
+      "turn": "right"
+    },
+    {
+      "node": "n011",
+      "from": "r034",
+      "to": "r035",
+      "turn": "left"
+    },
+    {
+      "node": "n011",
+      "from": "r035",
+      "to": "r011",
+      "turn": "right"
+    },
+    {
+      "node": "n011",
+      "from": "r035",
+      "to": "r034",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r013",
+      "to": "r012",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r013",
+      "to": "r038",
+      "turn": "left"
+    },
+    {
+      "node": "n012",
+      "from": "r013",
+      "to": "r039",
+      "turn": "left"
+    },
+    {
+      "node": "n012",
+      "from": "r038",
+      "to": "r012",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r038",
+      "to": "r013",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r038",
+      "to": "r039",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r039",
+      "to": "r012",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r039",
+      "to": "r013",
+      "turn": "right"
+    },
+    {
+      "node": "n012",
+      "from": "r039",
+      "to": "r038",
+      "turn": "left"
+    },
+    {
+      "node": "n013",
+      "from": "r013",
+      "to": "r040",
+      "turn": "left"
+    },
+    {
+      "node": "n013",
+      "from": "r013",
+      "to": "r041",
+      "turn": "left"
+    },
+    {
+      "node": "n013",
+      "from": "r040",
+      "to": "r013",
+      "turn": "right"
+    },
+    {
+      "node": "n013",
+      "from": "r040",
+      "to": "r041",
+      "turn": "left"
+    },
+    {
+      "node": "n013",
+      "from": "r041",
+      "to": "r013",
+      "turn": "right"
+    },
+    {
+      "node": "n013",
+      "from": "r041",
+      "to": "r040",
+      "turn": "right"
+    },
+    {
+      "node": "n014",
+      "from": "r014",
+      "to": "r027",
+      "turn": "left"
+    },
+    {
+      "node": "n014",
+      "from": "r014",
+      "to": "r042",
+      "turn": "left"
+    },
+    {
+      "node": "n014",
+      "from": "r027",
+      "to": "r014",
+      "turn": "right"
+    },
+    {
+      "node": "n014",
+      "from": "r027",
+      "to": "r042",
+      "turn": "right"
+    },
+    {
+      "node": "n014",
+      "from": "r042",
+      "to": "r014",
+      "turn": "right"
+    },
+    {
+      "node": "n014",
+      "from": "r042",
+      "to": "r027",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r014",
+      "to": "r015",
+      "turn": "right"
+    },
+    {
+      "node": "n015",
+      "from": "r014",
+      "to": "r029",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r014",
+      "to": "r043",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r015",
+      "to": "r014",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r015",
+      "to": "r029",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r015",
+      "to": "r043",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r029",
+      "to": "r014",
+      "turn": "right"
+    },
+    {
+      "node": "n015",
+      "from": "r029",
+      "to": "r015",
+      "turn": "right"
+    },
+    {
+      "node": "n015",
+      "from": "r029",
+      "to": "r043",
+      "turn": "left"
+    },
+    {
+      "node": "n015",
+      "from": "r043",
+      "to": "r014",
+      "turn": "right"
+    },
+    {
+      "node": "n015",
+      "from": "r043",
+      "to": "r015",
+      "turn": "right"
+    },
+    {
+      "node": "n015",
+      "from": "r043",
+      "to": "r029",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r015",
+      "to": "r016",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r015",
+      "to": "r031",
+      "turn": "left"
+    },
+    {
+      "node": "n016",
+      "from": "r015",
+      "to": "r044",
+      "turn": "left"
+    },
+    {
+      "node": "n016",
+      "from": "r016",
+      "to": "r015",
+      "turn": "left"
+    },
+    {
+      "node": "n016",
+      "from": "r016",
+      "to": "r031",
+      "turn": "left"
+    },
+    {
+      "node": "n016",
+      "from": "r016",
+      "to": "r044",
+      "turn": "left"
+    },
+    {
+      "node": "n016",
+      "from": "r031",
+      "to": "r015",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r031",
+      "to": "r016",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r031",
+      "to": "r044",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r044",
+      "to": "r015",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r044",
+      "to": "r016",
+      "turn": "right"
+    },
+    {
+      "node": "n016",
+      "from": "r044",
+      "to": "r031",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r016",
+      "to": "r017",
+      "turn": "right"
+    },
+    {
+      "node": "n017",
+      "from": "r016",
+      "to": "r033",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r016",
+      "to": "r045",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r017",
+      "to": "r016",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r017",
+      "to": "r033",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r017",
+      "to": "r045",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r033",
+      "to": "r016",
+      "turn": "right"
+    },
+    {
+      "node": "n017",
+      "from": "r033",
+      "to": "r017",
+      "turn": "right"
+    },
+    {
+      "node": "n017",
+      "from": "r033",
+      "to": "r045",
+      "turn": "left"
+    },
+    {
+      "node": "n017",
+      "from": "r045",
+      "to": "r016",
+      "turn": "right"
+    },
+    {
+      "node": "n017",
+      "from": "r045",
+      "to": "r017",
+      "turn": "right"
+    },
+    {
+      "node": "n017",
+      "from": "r045",
+      "to": "r033",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r017",
+      "to": "r018",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r017",
+      "to": "r035",
+      "turn": "left"
+    },
+    {
+      "node": "n018",
+      "from": "r017",
+      "to": "r046",
+      "turn": "left"
+    },
+    {
+      "node": "n018",
+      "from": "r035",
+      "to": "r017",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r035",
+      "to": "r018",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r035",
+      "to": "r046",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r046",
+      "to": "r017",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r046",
+      "to": "r018",
+      "turn": "right"
+    },
+    {
+      "node": "n018",
+      "from": "r046",
+      "to": "r035",
+      "turn": "left"
+    },
+    {
+      "node": "n019",
+      "from": "r018",
+      "to": "r019",
+      "turn": "right"
+    },
+    {
+      "node": "n019",
+      "from": "r018",
+      "to": "r039",
+      "turn": "left"
+    },
+    {
+      "node": "n019",
+      "from": "r018",
+      "to": "r055",
+      "turn": "left"
+    },
+    {
+      "node": "n019",
+      "from": "r019",
+      "to": "r039",
+      "turn": "left"
+    },
+    {
+      "node": "n019",
+      "from": "r019",
+      "to": "r055",
+      "turn": "left"
+    },
+    {
+      "node": "n019",
+      "from": "r039",
+      "to": "r019",
+      "turn": "right"
+    },
+    {
+      "node": "n019",
+      "from": "r039",
+      "to": "r055",
+      "turn": "right"
+    },
+    {
+      "node": "n019",
+      "from": "r055",
+      "to": "r019",
+      "turn": "right"
+    },
+    {
+      "node": "n019",
+      "from": "r055",
+      "to": "r039",
+      "turn": "left"
+    },
+    {
+      "node": "n020",
+      "from": "r019",
+      "to": "r041",
+      "turn": "left"
+    },
+    {
+      "node": "n020",
+      "from": "r019",
+      "to": "r058",
+      "turn": "straight"
+    },
+    {
+      "node": "n020",
+      "from": "r041",
+      "to": "r019",
+      "turn": "right"
+    },
+    {
+      "node": "n020",
+      "from": "r041",
+      "to": "r058",
+      "turn": "left"
+    },
+    {
+      "node": "n020",
+      "from": "r058",
+      "to": "r019",
+      "turn": "straight"
+    },
+    {
+      "node": "n020",
+      "from": "r058",
+      "to": "r041",
+      "turn": "right"
+    },
+    {
+      "node": "n021",
+      "from": "r020",
+      "to": "r042",
+      "turn": "left"
+    },
+    {
+      "node": "n021",
+      "from": "r042",
+      "to": "r020",
+      "turn": "right"
+    },
+    {
+      "node": "n022",
+      "from": "r020",
+      "to": "r021",
+      "turn": "right"
+    },
+    {
+      "node": "n022",
+      "from": "r020",
+      "to": "r043",
+      "turn": "left"
+    },
+    {
+      "node": "n022",
+      "from": "r021",
+      "to": "r020",
+      "turn": "left"
+    },
+    {
+      "node": "n022",
+      "from": "r021",
+      "to": "r043",
+      "turn": "left"
+    },
+    {
+      "node": "n022",
+      "from": "r043",
+      "to": "r020",
+      "turn": "right"
+    },
+    {
+      "node": "n022",
+      "from": "r043",
+      "to": "r021",
+      "turn": "right"
+    },
+    {
+      "node": "n023",
+      "from": "r021",
+      "to": "r022",
+      "turn": "left"
+    },
+    {
+      "node": "n023",
+      "from": "r021",
+      "to": "r044",
+      "turn": "left"
+    },
+    {
+      "node": "n023",
+      "from": "r022",
+      "to": "r021",
+      "turn": "right"
+    },
+    {
+      "node": "n023",
+      "from": "r022",
+      "to": "r044",
+      "turn": "left"
+    },
+    {
+      "node": "n023",
+      "from": "r044",
+      "to": "r021",
+      "turn": "right"
+    },
+    {
+      "node": "n023",
+      "from": "r044",
+      "to": "r022",
+      "turn": "right"
+    },
+    {
+      "node": "n024",
+      "from": "r022",
+      "to": "r023",
+      "turn": "left"
+    },
+    {
+      "node": "n024",
+      "from": "r022",
+      "to": "r045",
+      "turn": "left"
+    },
+    {
+      "node": "n024",
+      "from": "r023",
+      "to": "r022",
+      "turn": "right"
+    },
+    {
+      "node": "n024",
+      "from": "r023",
+      "to": "r045",
+      "turn": "left"
+    },
+    {
+      "node": "n024",
+      "from": "r045",
+      "to": "r022",
+      "turn": "right"
+    },
+    {
+      "node": "n024",
+      "from": "r045",
+      "to": "r023",
+      "turn": "right"
+    },
+    {
+      "node": "n024",
+      "from": "r062",
+      "to": "r022",
+      "turn": "left"
+    },
+    {
+      "node": "n024",
+      "from": "r062",
+      "to": "r023",
+      "turn": "left"
+    },
+    {
+      "node": "n024",
+      "from": "r062",
+      "to": "r045",
+      "turn": "straight"
+    },
+    {
+      "node": "n025",
+      "from": "r023",
+      "to": "r024",
+      "turn": "left"
+    },
+    {
+      "node": "n025",
+      "from": "r023",
+      "to": "r046",
+      "turn": "left"
+    },
+    {
+      "node": "n025",
+      "from": "r024",
+      "to": "r023",
+      "turn": "right"
+    },
+    {
+      "node": "n025",
+      "from": "r024",
+      "to": "r046",
+      "turn": "left"
+    },
+    {
+      "node": "n025",
+      "from": "r046",
+      "to": "r023",
+      "turn": "right"
+    },
+    {
+      "node": "n025",
+      "from": "r046",
+      "to": "r024",
+      "turn": "right"
+    },
+    {
+      "node": "n026",
+      "from": "r024",
+      "to": "r025",
+      "turn": "left"
+    },
+    {
+      "node": "n026",
+      "from": "r024",
+      "to": "r056",
+      "turn": "right"
+    },
+    {
+      "node": "n026",
+      "from": "r024",
+      "to": "r063",
+      "turn": "left"
+    },
+    {
+      "node": "n026",
+      "from": "r025",
+      "to": "r024",
+      "turn": "right"
+    },
+    {
+      "node": "n026",
+      "from": "r025",
+      "to": "r056",
+      "turn": "right"
+    },
+    {
+      "node": "n026",
+      "from": "r025",
+      "to": "r063",
+      "turn": "left"
+    },
+    {
+      "node": "n026",
+      "from": "r056",
+      "to": "r024",
+      "turn": "left"
+    },
+    {
+      "node": "n026",
+      "from": "r056",
+      "to": "r025",
+      "turn": "left"
+    },
+    {
+      "node": "n026",
+      "from": "r056",
+      "to": "r063",
+      "turn": "straight"
+    },
+    {
+      "node": "n027",
+      "from": "r025",
+      "to": "r057",
+      "turn": "right"
+    },
+    {
+      "node": "n027",
+      "from": "r057",
+      "to": "r025",
+      "turn": "left"
+    },
+    {
+      "node": "n028",
+      "from": "r007",
+      "to": "r008",
+      "turn": "left"
+    },
+    {
+      "node": "n028",
+      "from": "r008",
+      "to": "r007",
+      "turn": "right"
+    },
+    {
+      "node": "n029",
+      "from": "r008",
+      "to": "r009",
+      "turn": "right"
+    },
+    {
+      "node": "n029",
+      "from": "r009",
+      "to": "r008",
+      "turn": "left"
+    },
+    {
+      "node": "n030",
+      "from": "r036",
+      "to": "r037",
+      "turn": "right"
+    },
+    {
+      "node": "n030",
+      "from": "r037",
+      "to": "r036",
+      "turn": "right"
+    },
+    {
+      "node": "n031",
+      "from": "r037",
+      "to": "r038",
+      "turn": "right"
+    },
+    {
+      "node": "n031",
+      "from": "r038",
+      "to": "r037",
+      "turn": "right"
+    },
+    {
+      "node": "n032",
+      "from": "r054",
+      "to": "r047",
+      "turn": "straight"
+    },
+    {
+      "node": "n032",
+      "from": "r054",
+      "to": "r056",
+      "turn": "right"
+    },
+    {
+      "node": "n032",
+      "from": "r056",
+      "to": "r047",
+      "turn": "straight"
+    },
+    {
+      "node": "n033",
+      "from": "r047",
+      "to": "r048",
+      "turn": "straight"
+    },
+    {
+      "node": "n034",
+      "from": "r048",
+      "to": "r049",
+      "turn": "straight"
+    },
+    {
+      "node": "n034",
+      "from": "r048",
+      "to": "r055",
+      "turn": "right"
+    },
+    {
+      "node": "n034",
+      "from": "r055",
+      "to": "r049",
+      "turn": "straight"
+    },
+    {
+      "node": "n035",
+      "from": "r049",
+      "to": "r050",
+      "turn": "straight"
+    },
+    {
+      "node": "n036",
+      "from": "r050",
+      "to": "r051",
+      "turn": "straight"
+    },
+    {
+      "node": "n036",
+      "from": "r050",
+      "to": "r058",
+      "turn": "right"
+    },
+    {
+      "node": "n036",
+      "from": "r058",
+      "to": "r051",
+      "turn": "straight"
+    },
+    {
+      "node": "n037",
+      "from": "r051",
+      "to": "r052",
+      "turn": "straight"
+    },
+    {
+      "node": "n038",
+      "from": "r052",
+      "to": "r053",
+      "turn": "straight"
+    },
+    {
+      "node": "n039",
+      "from": "r053",
+      "to": "r054",
+      "turn": "straight"
+    },
+    {
+      "node": "n039",
+      "from": "r053",
+      "to": "r057",
+      "turn": "right"
+    },
+    {
+      "node": "n039",
+      "from": "r057",
+      "to": "r054",
+      "turn": "right"
+    },
+    {
+      "node": "n041",
+      "from": "r059",
+      "to": "r060",
+      "turn": "left"
+    },
+    {
+      "node": "n041",
+      "from": "r059",
+      "to": "r062",
+      "turn": "right"
+    },
+    {
+      "node": "n041",
+      "from": "r060",
+      "to": "r059",
+      "turn": "right"
+    },
+    {
+      "node": "n041",
+      "from": "r060",
+      "to": "r062",
+      "turn": "right"
+    },
+    {
+      "node": "n042",
+      "from": "r060",
+      "to": "r061",
+      "turn": "right"
+    },
+    {
+      "node": "n042",
+      "from": "r061",
+      "to": "r060",
+      "turn": "left"
+    },
+    {
+      "node": "n042",
+      "from": "r063",
+      "to": "r060",
+      "turn": "straight"
+    },
+    {
+      "node": "n042",
+      "from": "r063",
+      "to": "r061",
+      "turn": "straight"
+    }
+  ],
+  "origin": {
+    "x": 2600.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

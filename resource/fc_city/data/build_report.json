@@ -1,0 +1,30 @@
+{
+  "nodes": 44,
+  "roads": 64,
+  "buildings": 22,
+  "intersections": 34,
+  "trees": 26,
+  "streetLights": 103,
+  "tiles": 16,
+  "highTriangles": 64870,
+  "lowTriangles": 11230,
+  "combinedVisualTriangles": 76100,
+  "collisionTriangles": 17576,
+  "textureSourceDDSBytes": 11892160,
+  "runtimeTextureBytes": 14299032,
+  "textureDictionaryBytes": 2406872,
+  "layoutValidation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "nodes": 44,
+    "roads": 64,
+    "connectedComponents": 1,
+    "buildings": 22
+  },
+  "budgets": {
+    "assets": 250,
+    "triangles": 120000,
+    "textures": 33554432
+  }
+}

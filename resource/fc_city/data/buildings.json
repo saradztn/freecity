@@ -1,0 +1,623 @@
+{
+  "schema": 1,
+  "placements": [
+    {
+      "id": "bldg_office_01",
+      "archetype": "office_tower",
+      "district": "downtown",
+      "position": [
+        -55,
+        -8
+      ],
+      "width": 35.02,
+      "depth": 39.14,
+      "floors": 12,
+      "height": 63.86,
+      "facade": "stone_glass",
+      "seed": 20261003,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 1.433,
+      "worldPosition": [
+        2545.0,
+        -8.0,
+        1.433
+      ]
+    },
+    {
+      "id": "bldg_glass_01",
+      "archetype": "glass_tower",
+      "district": "downtown",
+      "position": [
+        66,
+        -8
+      ],
+      "width": 37.15,
+      "depth": 40.24,
+      "floors": 16,
+      "height": 88.74,
+      "facade": "curtainwall",
+      "seed": 20268922,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 0.266,
+      "worldPosition": [
+        2666.0,
+        -8.0,
+        0.266
+      ]
+    },
+    {
+      "id": "bldg_residential_01",
+      "archetype": "luxury_apartment",
+      "district": "downtown",
+      "position": [
+        -55,
+        94
+      ],
+      "width": 38.1,
+      "depth": 38.1,
+      "floors": 9,
+      "height": 44.28,
+      "facade": "brick_balcony",
+      "seed": 20276841,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 2.136,
+      "worldPosition": [
+        2545.0,
+        94.0,
+        2.136
+      ]
+    },
+    {
+      "id": "bldg_hotel_01",
+      "archetype": "hotel",
+      "district": "downtown",
+      "position": [
+        67,
+        95
+      ],
+      "width": 36.37,
+      "depth": 34.45,
+      "floors": 11,
+      "height": 51.68,
+      "facade": "stone_glass",
+      "seed": 20284760,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 4.638,
+      "worldPosition": [
+        2667.0,
+        95.0,
+        4.638
+      ]
+    },
+    {
+      "id": "bldg_hospital_01",
+      "archetype": "hospital",
+      "district": "downtown",
+      "position": [
+        -20,
+        102
+      ],
+      "width": 30.3,
+      "depth": 27.16,
+      "floors": 5,
+      "height": 26.12,
+      "facade": "institutional",
+      "seed": 20292679,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 3.176,
+      "worldPosition": [
+        2580.0,
+        102.0,
+        3.176
+      ]
+    },
+    {
+      "id": "bldg_police_01",
+      "archetype": "police_station",
+      "district": "downtown",
+      "position": [
+        102,
+        101
+      ],
+      "width": 24.15,
+      "depth": 22.22,
+      "floors": 3,
+      "height": 14.49,
+      "facade": "institutional",
+      "seed": 20300598,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 5.024,
+      "worldPosition": [
+        2702.0,
+        101.0,
+        5.024
+      ]
+    },
+    {
+      "id": "bldg_fire_01",
+      "archetype": "fire_station",
+      "district": "downtown",
+      "position": [
+        40,
+        128
+      ],
+      "width": 27.98,
+      "depth": 23.83,
+      "floors": 2,
+      "height": 12.44,
+      "facade": "institutional",
+      "seed": 20308517,
+      "rotation": 90.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 8.741,
+      "worldPosition": [
+        2640.0,
+        128.0,
+        8.741
+      ]
+    },
+    {
+      "id": "bldg_school_01",
+      "archetype": "school",
+      "district": "residential",
+      "position": [
+        -140,
+        92
+      ],
+      "width": 41.81,
+      "depth": 37.63,
+      "floors": 2,
+      "height": 13.59,
+      "facade": "institutional",
+      "seed": 20316436,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 2.125,
+      "worldPosition": [
+        2460.0,
+        92.0,
+        2.125
+      ]
+    },
+    {
+      "id": "bldg_house_01",
+      "archetype": "suburban_house",
+      "district": "residential",
+      "position": [
+        -185,
+        95
+      ],
+      "width": 12.54,
+      "depth": 15.43,
+      "floors": 2,
+      "height": 7.72,
+      "facade": "siding",
+      "seed": 20324355,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": false,
+        "sign": false
+      },
+      "baseZ": 2.512,
+      "worldPosition": [
+        2415.0,
+        95.0,
+        2.512
+      ]
+    },
+    {
+      "id": "bldg_house_02",
+      "archetype": "townhouse",
+      "district": "residential",
+      "position": [
+        -140,
+        122
+      ],
+      "width": 17.5,
+      "depth": 15.56,
+      "floors": 3,
+      "height": 10.21,
+      "facade": "brick",
+      "seed": 20332274,
+      "rotation": 90.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": false,
+        "sign": false
+      },
+      "baseZ": 1.679,
+      "worldPosition": [
+        2460.0,
+        122.0,
+        1.679
+      ]
+    },
+    {
+      "id": "bldg_house_03",
+      "archetype": "suburban_house",
+      "district": "residential",
+      "position": [
+        -185,
+        -42
+      ],
+      "width": 12.28,
+      "depth": 15.11,
+      "floors": 2,
+      "height": 7.55,
+      "facade": "stucco",
+      "seed": 20340193,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": false,
+        "sign": false
+      },
+      "baseZ": 23.51,
+      "worldPosition": [
+        2415.0,
+        -42.0,
+        23.51
+      ]
+    },
+    {
+      "id": "bldg_house_04",
+      "archetype": "townhouse",
+      "district": "residential",
+      "position": [
+        -185,
+        20
+      ],
+      "width": 12.65,
+      "depth": 15.57,
+      "floors": 2,
+      "height": 8.27,
+      "facade": "siding",
+      "seed": 20348112,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": false,
+        "sign": false
+      },
+      "baseZ": 8.791,
+      "worldPosition": [
+        2415.0,
+        20.0,
+        8.791
+      ]
+    },
+    {
+      "id": "bldg_strip_01",
+      "archetype": "strip_mall",
+      "district": "commercial",
+      "position": [
+        -54,
+        -124
+      ],
+      "width": 52.62,
+      "depth": 30.78,
+      "floors": 1,
+      "height": 8.94,
+      "facade": "painted_concrete",
+      "seed": 20356031,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": true
+      },
+      "baseZ": 2.23,
+      "worldPosition": [
+        2546.0,
+        -124.0,
+        2.23
+      ]
+    },
+    {
+      "id": "bldg_gas_01",
+      "archetype": "gas_station",
+      "district": "commercial",
+      "position": [
+        68,
+        -125
+      ],
+      "width": 36.83,
+      "depth": 34.89,
+      "floors": 1,
+      "height": 7.27,
+      "facade": "painted_metal",
+      "seed": 20363950,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": true
+      },
+      "baseZ": 3.344,
+      "worldPosition": [
+        2668.0,
+        -125.0,
+        3.344
+      ]
+    },
+    {
+      "id": "bldg_motel_01",
+      "archetype": "motel",
+      "district": "commercial",
+      "position": [
+        -55,
+        -156
+      ],
+      "width": 35.47,
+      "depth": 22.95,
+      "floors": 2,
+      "height": 11.47,
+      "facade": "painted_concrete",
+      "seed": 20371869,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": true
+      },
+      "baseZ": 2.483,
+      "worldPosition": [
+        2545.0,
+        -156.0,
+        2.483
+      ]
+    },
+    {
+      "id": "bldg_diner_01",
+      "archetype": "diner",
+      "district": "commercial",
+      "position": [
+        -185,
+        -14
+      ],
+      "width": 12.26,
+      "depth": 15.09,
+      "floors": 1,
+      "height": 7.07,
+      "facade": "painted_metal",
+      "seed": 20379788,
+      "rotation": 90.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": true
+      },
+      "baseZ": 18.241,
+      "worldPosition": [
+        2415.0,
+        -14.0,
+        18.241
+      ]
+    },
+    {
+      "id": "bldg_restaurant_01",
+      "archetype": "restaurant",
+      "district": "commercial",
+      "position": [
+        -140,
+        -14
+      ],
+      "width": 23.19,
+      "depth": 21.08,
+      "floors": 2,
+      "height": 10.54,
+      "facade": "brick",
+      "seed": 20387707,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": true
+      },
+      "baseZ": 13.509,
+      "worldPosition": [
+        2460.0,
+        -14.0,
+        13.509
+      ]
+    },
+    {
+      "id": "bldg_warehouse_01",
+      "archetype": "warehouse",
+      "district": "industrial",
+      "position": [
+        177,
+        191
+      ],
+      "width": 49.23,
+      "depth": 16.08,
+      "floors": 1,
+      "height": 9.04,
+      "facade": "metal",
+      "seed": 20395626,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 4.847,
+      "worldPosition": [
+        2777.0,
+        191.0,
+        4.847
+      ]
+    },
+    {
+      "id": "bldg_factory_01",
+      "archetype": "factory",
+      "district": "industrial",
+      "position": [
+        -174,
+        178
+      ],
+      "width": 34.96,
+      "depth": 25.7,
+      "floors": 2,
+      "height": 15.42,
+      "facade": "industrial",
+      "seed": 20403545,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 2.294,
+      "worldPosition": [
+        2426.0,
+        178.0,
+        2.294
+      ]
+    },
+    {
+      "id": "bldg_smallcom_01",
+      "archetype": "small_commercial",
+      "district": "commercial",
+      "position": [
+        91,
+        -157
+      ],
+      "width": 26.57,
+      "depth": 15.18,
+      "floors": 2,
+      "height": 8.54,
+      "facade": "brick",
+      "seed": 20411464,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 2.862,
+      "worldPosition": [
+        2691.0,
+        -157.0,
+        2.862
+      ]
+    },
+    {
+      "id": "bldg_garage_01",
+      "archetype": "parking_garage",
+      "district": "downtown",
+      "position": [
+        35,
+        -86
+      ],
+      "width": 19.05,
+      "depth": 26.07,
+      "floors": 5,
+      "height": 18.05,
+      "facade": "concrete_open",
+      "seed": 20419383,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": true,
+        "sign": false
+      },
+      "baseZ": 2.103,
+      "worldPosition": [
+        2635.0,
+        -86.0,
+        2.103
+      ]
+    },
+    {
+      "id": "bldg_infill_21",
+      "archetype": "townhouse",
+      "district": "residential",
+      "position": [
+        -137,
+        11
+      ],
+      "width": 19.34,
+      "depth": 21.49,
+      "floors": 3,
+      "height": 10.74,
+      "facade": "brick",
+      "seed": 22565041,
+      "rotation": 0.0,
+      "extras": {
+        "windows": true,
+        "roof_hvac": false
+      },
+      "baseZ": 8.202,
+      "worldPosition": [
+        2463.0,
+        11.0,
+        8.202
+      ]
+    }
+  ],
+  "archetypes": [
+    "diner",
+    "factory",
+    "fire_station",
+    "gas_station",
+    "glass_tower",
+    "hospital",
+    "hotel",
+    "industrial_building",
+    "luxury_apartment",
+    "modern_tower",
+    "motel",
+    "office_tower",
+    "parking_garage",
+    "police_station",
+    "residential_tower",
+    "restaurant",
+    "school",
+    "shopping_center",
+    "small_commercial",
+    "strip_mall",
+    "suburban_house",
+    "townhouse",
+    "warehouse"
+  ]
+}
